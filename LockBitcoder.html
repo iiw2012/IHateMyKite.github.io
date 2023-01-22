@@ -10,24 +10,33 @@
         </div>
         <div class="container">
             <h1>Lock bitcoder</h1>
-            <label for="lockShield">Lock Shields:</label>
-            <input type="number" id="lockShield" name="Lock Shields" min="0" max="15" placeholder="Range 0-15" onkeypress="enterKeyPressed_s(event)" value="0">
-            <button id="lockButtS" onclick="SetAndCalc_s()">Set</button>
-            <br>
-            
-            <label for="lockDiff">Lock Difficulty:</label>
-            <input type="number" id="lockDiff" name="Lock Defficulty" min="1" max="255" placeholder="Range 1-255" onkeypress="enterKeyPressed_d(event)" value="1">
-            <button id="lockButtD" onclick="SetAndCalc_d()">Set</button>
-            <br>
-            
-            <label for="lockAcc">Lock Accessibility:</label>
-            <input type="number" id="lockAcc" name="Lock Defficulty" min="0" max="100" placeholder="Range 0-100" onkeypress="enterKeyPressed_a(event)" value="0">
-            <button id="lockButtA" onclick="SetAndCalc_a()">Set</button>
-            <br>
-            <br>
-            
-            <label for="lockResult">Result:</label>
-            <input type="number" id="lockResult" name="Result" readonly><br>
+            <table style="width:25%">
+              <tr>
+                <td><label for="lockShield">Lock Shields:</label></td>
+                <td><input type="number" id="lockShield" name="Lock Shields" min="0" max="15" placeholder="Range 0-15" onkeypress="enterKeyPressed_s(event)" value="0"></td>
+                <td><button id="lockButtS" onclick="SetAndCalc_s()">Set</button></td>
+              </tr>
+              <tr>
+                <td><label for="lockDiff">Lock Difficulty:</label></td>
+                <td><input type="number" id="lockDiff" name="Lock Defficulty" min="1" max="255" placeholder="Range 1-255" onkeypress="enterKeyPressed_d(event)" value="1"></td>
+                <td><button id="lockButtD" onclick="SetAndCalc_d()">Set</button></td>
+              </tr>
+              <tr>
+                <td><label for="lockAcc">Lock Accessibility:</label></td>
+                <td><input type="number" id="lockAcc" name="Lock Defficulty" min="0" max="100" placeholder="Range 0-100" onkeypress="enterKeyPressed_a(event)" value="0"></td>
+                <td><button id="lockButtA" onclick="SetAndCalc_a()">Set</button></td>
+              </tr>
+              <tr>
+                <td><label for="lockTime">Lock Timelock:</label></td>
+                <td><input type="number" id="lockTime" name="Lock TimeLock" min="0" max="127" placeholder="Range 0-127" onkeypress="enterKeyPressed_t(event)" value="0"></td>
+                <td><button id="lockButtT" onclick="SetAndCalc_t()">Set</button></td>
+              </tr>
+              <tr>
+                <td><label for="lockResult">Result:</label></td>
+                <td><input type="number" id="lockResult" name="Result" readonly><br></td>
+                <td></td>
+              </tr>
+            </table>
         </div>
     </body>
     <script>
@@ -46,9 +55,22 @@
             loc_result = loc_result | (loc_s << 4);
             loc_result = loc_result | (loc_a << 8);
             loc_result = loc_result | (loc_d << 15);
+            loc_result = loc_result | (loc_t << 23);
             
             //set result
             document.getElementById('lockResult').value = loc_result; 
+        }
+        
+        //reload values if they are saved in browser data
+        window.onload = function () {
+            if (localStorage.getItem("hasCodeRunBefore") !== null)
+            {
+                loc_a = document.getElementById('lockAcc').value;
+                loc_d = document.getElementById('lockDiff').value;
+                loc_s = document.getElementById('lockShield').value;
+                loc_t = document.getElementById('lockTime').value;
+                Calculate()
+            }
         }
         
         function enterKeyPressed_a(event) {
@@ -66,7 +88,12 @@
                 SetAndCalc_s()
             }
         }
-       
+        function enterKeyPressed_t(event) {
+            if (event.keyCode == 13) {
+                SetAndCalc_t()
+            }
+        }
+        
         function SetAndCalc_a() {
             loc_a = document.getElementById('lockAcc').value;
             
@@ -94,6 +121,16 @@
             if (loc_s > 15) loc_s = 15;
             
             document.getElementById('lockShield').value = loc_s;
+            
+            Calculate();
+        }
+        function SetAndCalc_t() {
+            loc_t = document.getElementById('lockTime').value;
+            
+            if (loc_t < 0) loc_t = 0;
+            if (loc_t > 127) loc_t = 127;
+            
+            document.getElementById('lockTime').value = loc_t;
             
             Calculate();
         }
