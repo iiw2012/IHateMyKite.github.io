@@ -1,5 +1,14 @@
 <!DOCTYPE html>
 <html>
+    <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    tr {
+      border-bottom: 3px solid #ddd;
+    }
+    </style>
     <head>
         <meta charset="utf-8" />
         <title>Unforgiving Devices Tools</title>
@@ -10,41 +19,44 @@
         </div>
         <div class="container">
             <h1>Lock bitcoder</h1>
-            <table style="width:25%">
+            <table style="width:75%">
               <tr>
-                <td><label for="lockTimeLockOn">TimeLock:</label></td>
-                <td><input type="checkbox" id="lockTimeLockOn" name="Lock TimeLock" onclick="SetAndCalc_TL()" value="False"></td>
-                <td></td>
+                <td style="width:5%"><label for="lockTimeLockOn">TimeLock:</label></td>
+                <td colspan="2" style="width:1%"><input type="checkbox" id="lockTimeLockOn" name="Lock TimeLock" onclick="SetAndCalc_TL()" value="False"></td>
+                <td style="width:30%">Toggle this On, if the lock should be time locked. You also have to change "Lock Timelock (h)" to different value then , otherwise, the timelock will be immidiatly removed</td>
               </tr>
               <tr>
                 <td><label for="lockAutoTimeLockOn">Auto TimeLock:</label></td>
-                <td><input type="checkbox" id="lockAutoTimeLockOn" name="Lock Auto TimeLock" onclick="SetAndCalc_ATL()" value="False"></td>
-                <td></td>
+                <td colspan="2"><input type="checkbox" id="lockAutoTimeLockOn" name="Lock Auto TimeLock" onclick="SetAndCalc_ATL()" value="False"></td>
+                <td>Toggle this On, if the lock should be automatically unlocked when timelock gets removed. Othwise, the lock will need to be unlocked by wearer after timelock gets removed</td>
               </tr>
               <tr>
                 <td><label for="lockShield">Lock Shields:</label></td>
                 <td><input type="number" id="lockShield" name="Lock Shields" min="0" max="15" placeholder="Range 0-15" onkeypress="enterKeyPressed_s(event)" value="0"></td>
                 <td><button id="lockButtS" onclick="SetAndCalc_s()">Set</button></td>
+                <td>Number of locks shields. Lock can't be unlocked with lockpicking unless all shields are removed. Every lockpick attempt remove 1 shield. Unlocking with key bypass the shields.</td>
               </tr>
               <tr>
                 <td><label for="lockDiff">Lock Difficulty:</label></td>
                 <td><input type="number" id="lockDiff" name="Lock Defficulty" min="1" max="255" placeholder="Range 1-255" onkeypress="enterKeyPressed_d(event)" value="1"></td>
                 <td><button id="lockButtD" onclick="SetAndCalc_d()">Set</button></td>
+                <td>Locks difficulty. This corresponds to the vannila skyrim difficulty. 1 = Novice, 25 = Apprentice, 50 = Adept,75 = Expert,100 = Master,>100 = Requires Key</td>
               </tr>
               <tr>
                 <td><label for="lockAcc">Lock Accessibility (%):</label></td>
                 <td><input type="number" id="lockAcc" name="Lock Defficulty" min="0" max="100" placeholder="Range 0-100" onkeypress="enterKeyPressed_a(event)" value="0"></td>
                 <td><button id="lockButtA" onclick="SetAndCalc_a()">Set</button></td>
+                <td>How hard it is to reach the lock. If this is 100%, lock can be immidiatly accessed by wearer (in case there are no other device reducing accessibility, like blindfold)</td>
               </tr>
               <tr>
                 <td><label for="lockTime">Lock Timelock (h):</label></td>
                 <td><input type="number" id="lockTime" name="Lock TimeLock" min="0" max="127" placeholder="Range 0-127" onkeypress="enterKeyPressed_t(event)" value="0"></td>
                 <td><button id="lockButtT" onclick="SetAndCalc_t()">Set</button></td>
+                <td>TimeLock hours. Lock can't be manipulated untill the timelock wears out. Evvery hour, this value gets reduced by 1</td>
               </tr>
               <tr>
                 <td><label for="lockResult">Result:</label></td>
-                <td><input type="number" id="lockResult" name="Result" readonly><br></td>
-                <td></td>
+                <td colspan="3"><input type="number" id="lockResult" name="Result" readonly><br></td>
               </tr>
             </table>
         </div>
