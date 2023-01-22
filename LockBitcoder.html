@@ -12,6 +12,16 @@
             <h1>Lock bitcoder</h1>
             <table style="width:25%">
               <tr>
+                <td><label for="lockTimeLockOn">TimeLock:</label></td>
+                <td><input type="checkbox" id="lockTimeLockOn" name="Lock TimeLock" onclick="SetAndCalc_TL()" value="False"></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><label for="lockAutoTimeLockOn">Auto TimeLock:</label></td>
+                <td><input type="checkbox" id="lockAutoTimeLockOn" name="Lock Auto TimeLock" onclick="SetAndCalc_ATL()" value="False"></td>
+                <td></td>
+              </tr>
+              <tr>
                 <td><label for="lockShield">Lock Shields:</label></td>
                 <td><input type="number" id="lockShield" name="Lock Shields" min="0" max="15" placeholder="Range 0-15" onkeypress="enterKeyPressed_s(event)" value="0"></td>
                 <td><button id="lockButtS" onclick="SetAndCalc_s()">Set</button></td>
@@ -22,12 +32,12 @@
                 <td><button id="lockButtD" onclick="SetAndCalc_d()">Set</button></td>
               </tr>
               <tr>
-                <td><label for="lockAcc">Lock Accessibility:</label></td>
+                <td><label for="lockAcc">Lock Accessibility (%):</label></td>
                 <td><input type="number" id="lockAcc" name="Lock Defficulty" min="0" max="100" placeholder="Range 0-100" onkeypress="enterKeyPressed_a(event)" value="0"></td>
                 <td><button id="lockButtA" onclick="SetAndCalc_a()">Set</button></td>
               </tr>
               <tr>
-                <td><label for="lockTime">Lock Timelock:</label></td>
+                <td><label for="lockTime">Lock Timelock (h):</label></td>
                 <td><input type="number" id="lockTime" name="Lock TimeLock" min="0" max="127" placeholder="Range 0-127" onkeypress="enterKeyPressed_t(event)" value="0"></td>
                 <td><button id="lockButtT" onclick="SetAndCalc_t()">Set</button></td>
               </tr>
@@ -40,18 +50,25 @@
         </div>
     </body>
     <script>
+        var loc_TL
+        var loc_ATL
         var loc_a
         var loc_d
         var loc_s
         function Calculate() {
             //print debug info
-            console.log(loc_a);
-            console.log(loc_d);
-            console.log(loc_s);
-            
+            console.log("loc_TL=" + loc_TL);
+            console.log("loc_ATL=" + loc_ATL);
+            console.log("loc_a="+loc_a);
+            console.log("loc_d="+loc_d);
+            console.log("loc_s="+loc_s);
+            console.log("loc_t="+loc_t);
             //calculate result
             var loc_result = 0x00000000
             
+            
+            loc_result = loc_result | (loc_TL << 2);
+            loc_result = loc_result | (loc_ATL << 3);
             loc_result = loc_result | (loc_s << 4);
             loc_result = loc_result | (loc_a << 8);
             loc_result = loc_result | (loc_d << 15);
@@ -63,6 +80,8 @@
         
         //reload values if they are saved in browser data
         window.onload = function () {
+            loc_TL = document.getElementById('lockTimeLockOn').checked;
+            loc_ATL = document.getElementById('lockAutoTimeLockOn').checked;
             loc_a = document.getElementById('lockAcc').value;
             loc_d = document.getElementById('lockDiff').value;
             loc_s = document.getElementById('lockShield').value;
@@ -91,6 +110,14 @@
             }
         }
         
+        function SetAndCalc_TL() {
+            loc_TL = document.getElementById('lockTimeLockOn').checked;
+            Calculate();
+        }
+        function SetAndCalc_ATL() {
+            loc_ATL = document.getElementById('lockAutoTimeLockOn').checked;
+            Calculate();
+        }
         function SetAndCalc_a() {
             loc_a = document.getElementById('lockAcc').value;
             
