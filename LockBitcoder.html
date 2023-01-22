@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Unforgiving Devices Tools</title>
+    </head>
+    <body>
+        <div class="menu">
+            <a href="index.html">Back to title</a> 
+        </div>
+        <div class="container">
+            <h1>Lock bitcoder</h1>
+            <label for="lockShield">Lock Shields:</label>
+            <input type="number" id="lockShield" name="Lock Shields" min="0" max="15" placeholder="Range 0-15" onkeypress="enterKeyPressed_s(event)" value="0">
+            <button id="lockButtS" onclick="SetAndCalc_s()">Set</button>
+            <br>
+            
+            <label for="lockDiff">Lock Difficulty:</label>
+            <input type="number" id="lockDiff" name="Lock Defficulty" min="1" max="255" placeholder="Range 1-255" onkeypress="enterKeyPressed_d(event)" value="1">
+            <button id="lockButtD" onclick="SetAndCalc_d()">Set</button>
+            <br>
+            
+            <label for="lockAcc">Lock Accessibility:</label>
+            <input type="number" id="lockAcc" name="Lock Defficulty" min="0" max="100" placeholder="Range 0-100" onkeypress="enterKeyPressed_a(event)" value="0">
+            <button id="lockButtA" onclick="SetAndCalc_a()">Set</button>
+            <br>
+            <br>
+            
+            <label for="lockResult">Result:</label>
+            <input type="number" id="lockResult" name="Result" readonly><br>
+        </div>
+    </body>
+    <script>
+        var loc_a
+        var loc_d
+        var loc_s
+        function Calculate() {
+            //print debug info
+            console.log(loc_a);
+            console.log(loc_d);
+            console.log(loc_s);
+            
+            //calculate result
+            var loc_result = 0x00000000
+            
+            loc_result = loc_result | (loc_s << 4);
+            loc_result = loc_result | (loc_a << 8);
+            loc_result = loc_result | (loc_d << 15);
+            
+            //set result
+            document.getElementById('lockResult').value = loc_result; 
+        }
+        
+        function enterKeyPressed_a(event) {
+            if (event.keyCode == 13) {
+                SetAndCalc_a()
+            }
+        }
+        function enterKeyPressed_d(event) {
+            if (event.keyCode == 13) {
+                SetAndCalc_d()
+            }
+        }
+        function enterKeyPressed_s(event) {
+            if (event.keyCode == 13) {
+                SetAndCalc_s()
+            }
+        }
+       
+        function SetAndCalc_a() {
+            loc_a = document.getElementById('lockAcc').value;
+            
+            if (loc_a < 0) loc_a = 0;
+            if (loc_a > 100) loc_a = 100;
+            
+            document.getElementById('lockAcc').value = loc_a;
+            
+            Calculate();
+        }
+        function SetAndCalc_d() {
+            loc_d = document.getElementById('lockDiff').value;
+            
+            if (loc_d < 1) loc_d = 1;
+            if (loc_d > 255) loc_d = 255;
+            
+            document.getElementById('lockDiff').value = loc_d;
+            
+            Calculate();
+        }
+        function SetAndCalc_s() {
+            loc_s = document.getElementById('lockShield').value;
+            
+            if (loc_s < 0) loc_s = 0;
+            if (loc_s > 15) loc_s = 15;
+            
+            document.getElementById('lockShield').value = loc_s;
+            
+            Calculate();
+        }
+    </script>
+</html>
