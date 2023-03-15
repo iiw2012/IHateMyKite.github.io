@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("ism",["Function"],[["IsMenuOpen",,[[,,,,0,"File:UD_API.psc:IsMenuOpen"]]],["IsMenuOpenID",,[[,,,,0,"File:UD_API.psc:IsMenuOpenID"]]]]);

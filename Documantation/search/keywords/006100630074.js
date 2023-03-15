@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("act",["Function"],[["ActorInCloseRange",,[[,,,,0,"File:UD_API.psc:ActorInCloseRange"]]],["ActorIsFollower",,[[,,,,0,"File:UD_API.psc:ActorIsFollower"]]],["ActorIsPlayer",,[[,,,,0,"File:UD_API.psc:ActorIsPlayer"]]],["ActorIsValidForUD",,[[,,,,0,"File:UD_API.psc:ActorIsValidForUD"]]]]);

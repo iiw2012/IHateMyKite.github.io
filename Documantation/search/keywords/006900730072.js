@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("isr",["Function"],[["isRegistered",,[[,,,,0,"File:UD_API.psc:isRegistered"]]]]);
