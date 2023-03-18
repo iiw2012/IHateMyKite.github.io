@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("mod",["Function"],[["ModInstalled",,[[,,,,0,"File:UnforgivingDevicesMain.psc:ModInstalled"]]],["ModInstalledAfterUD",,[[,,,,0,"File:UnforgivingDevicesMain.psc:ModInstalledAfterUD"]]]]);

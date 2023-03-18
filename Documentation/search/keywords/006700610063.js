@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("gac",["Function"],[["GActorIsPlayer",,[[,,,,0,"File:UnforgivingDevicesMain.psc:GActorIsPlayer"]]]]);

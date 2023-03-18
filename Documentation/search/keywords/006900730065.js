@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("ise",["Function"],[["IsEnabled",,[[,,,,0,"File:UnforgivingDevicesMain.psc:IsEnabled"]]]]);

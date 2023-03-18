@@ -1,1 +1,1 @@
-﻿NDSearch.OnPrefixDataLoaded("clo",["Function"],[["CLog",,[[,,,,0,"File:UD_API.psc:CLog"]]]]);
+﻿NDSearch.OnPrefixDataLoaded("clo",["Function"],[["CLog",,[[,,,,0,"File:UD_API.psc:CLog"]]],["closeLockpickMenu",,[[,,,,0,"File:UnforgivingDevicesMain.psc:closeLockpickMenu"]]],["closeMenu",,[[,,,,0,"File:UnforgivingDevicesMain.psc:closeMenu"]]]]);

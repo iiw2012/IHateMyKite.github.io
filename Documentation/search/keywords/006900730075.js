@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("isu",["Function"],[["IsUpdating",,[[,,,,0,"File:UnforgivingDevicesMain.psc:IsUpdating"]]]]);

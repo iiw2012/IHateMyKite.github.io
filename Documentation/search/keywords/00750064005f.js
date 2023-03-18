@@ -1,1 +1,1 @@
-﻿NDSearch.OnPrefixDataLoaded("ud_",["File"],[["UD_API",,[[,,,,0,"File:UD_API.psc:UD_API"]]]]);
+﻿NDSearch.OnPrefixDataLoaded("ud_",["File","Variable"],[["UD_API",,[[,,,,0,"File:UD_API.psc:UD_API"]]],["UD_baseUpdateTime",,[[,,,,1,"File:UnforgivingDevicesMain.psc:UD_baseUpdateTime"]]],["UD_MenuChecker",,[[,,,,0,"File:UD_MenuChecker.psc:UD_MenuChecker"]]]]);

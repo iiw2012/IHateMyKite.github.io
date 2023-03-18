@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("isi",["Function"],[["IsInventoryMenuOpen",,[[,,,,0,"File:UnforgivingDevicesMain.psc:IsInventoryMenuOpen"]]]]);

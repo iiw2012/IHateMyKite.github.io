@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("dec",["Function"],[["decodeBit",,[[,,,,0,"File:UnforgivingDevicesMain.psc:decodeBit"]]]]);

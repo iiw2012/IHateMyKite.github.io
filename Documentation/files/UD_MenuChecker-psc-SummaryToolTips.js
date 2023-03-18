@@ -1,0 +1,1 @@
+﻿NDSummary.OnToolTipsLoaded("File:UD_MenuChecker.psc",{1:"<div class=\"NDToolTip TFile LPapyrus\"><div id=\"NDPrototype1\" class=\"NDPrototype\"><div class=\"PSection PPlainSection\">Scriptname UD_MenuChecker <span class=\"SHKeyword\">extends</span> Quest hidden</div></div><div class=\"TTSummary\">This script checks if any menu is open using events.</div></div>"});
