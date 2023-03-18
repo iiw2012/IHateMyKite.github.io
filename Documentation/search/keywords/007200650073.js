@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("res",["Function"],[["resetCondVar",,[[,,,,0,"File:UDCustomDeviceMain.psc:resetCondVar"]]]]);

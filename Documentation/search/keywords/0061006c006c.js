@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("all",["Function"],[["AllowNPCMessage",,[[,,,,0,"File:UDCustomDeviceMain.psc:AllowNPCMessage"]]]]);

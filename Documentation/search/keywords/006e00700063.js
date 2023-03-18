@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("npc",["Function"],[["NPCMenu",,[[,,,,0,"File:UDCustomDeviceMain.psc:NPCMenu"]]]]);

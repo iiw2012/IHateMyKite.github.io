@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("end",["Function"],[["EndMinigameDisable",,[[,,,,0,"File:UDCustomDeviceMain.psc:EndMinigameDisable"]]]]);

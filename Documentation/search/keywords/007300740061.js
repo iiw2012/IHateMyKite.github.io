@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("sta",["Function"],[["StartMinigameDisable",,[[,,,,0,"File:UDCustomDeviceMain.psc:StartMinigameDisable"]]],["startVibFunction",,[[,,,,0,"File:UDCustomDeviceMain.psc:startVibFunction"]]]]);

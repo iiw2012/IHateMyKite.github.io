@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("udc",["File"],[["UDCustomDeviceMain",,[[,,,,0,"File:UDCustomDeviceMain.psc:UDCustomDeviceMain"]]]]);

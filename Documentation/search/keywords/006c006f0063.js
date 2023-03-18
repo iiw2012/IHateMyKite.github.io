@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("loc",["Function"],[["LockDevice",,[[,,,,0,"File:UDCustomDeviceMain.psc:LockDevice"]]],["LockDeviceParalel",,[[,,,,0,"File:UDCustomDeviceMain.psc:LockDeviceParalel"]]]]);

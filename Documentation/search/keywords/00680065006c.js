@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("hel",["Function"],[["HelpNPC",,[[,,,,0,"File:UDCustomDeviceMain.psc:HelpNPC"]]]]);

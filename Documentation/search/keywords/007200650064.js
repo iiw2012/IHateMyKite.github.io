@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("red",["Function"],[["ReduceKeyDurability",,[[,,,,0,"File:UDCustomDeviceMain.psc:ReduceKeyDurability"]]]]);

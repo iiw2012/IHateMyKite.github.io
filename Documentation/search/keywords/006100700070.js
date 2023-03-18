@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("app",["Function"],[["ApplyDroolEffect",,[[,,,,0,"File:UDCustomDeviceMain.psc:ApplyDroolEffect"]]],["ApplyTearsEffect",,[[,,,,0,"File:UDCustomDeviceMain.psc:ApplyTearsEffect"]]]]);
