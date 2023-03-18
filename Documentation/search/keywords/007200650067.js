@@ -1,1 +1,1 @@
-﻿NDSearch.OnPrefixDataLoaded("reg",["Function"],[["RegisterNPC",,[[,,,,0,"File:UD_API.psc:RegisterNPC"]]]]);
+﻿NDSearch.OnPrefixDataLoaded("reg",["Function"],[["registerDevice",,[[,,,,0,"File:UDCustomDeviceMain.psc:registerDevice"]]],["RegisterNPC",,[[,,,,0,"File:UD_API.psc:RegisterNPC"]]]]);

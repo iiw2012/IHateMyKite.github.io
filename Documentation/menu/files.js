@@ -1,1 +1,1 @@
-﻿NDMenu.OnSectionLoaded("files.js",[[1,"UD_API.psc"],[1,"UD_MenuChecker.psc"],[1,"UnforgivingDevicesMain.psc"]]);
+﻿NDMenu.OnSectionLoaded("files.js",[[1,"UD_API.psc"],[1,"UD_MenuChecker.psc"],[1,"UDCustomDeviceMain.psc"],[1,"UnforgivingDevicesMain.psc"]]);

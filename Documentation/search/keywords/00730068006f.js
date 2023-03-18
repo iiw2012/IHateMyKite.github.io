@@ -1,1 +1,1 @@
-﻿NDSearch.OnPrefixDataLoaded("sho",["Function"],[["ShowMessageBox",,[[,,,,0,"File:UnforgivingDevicesMain.psc:ShowMessageBox"]]],["ShowSingleMessageBox",,[[,,,,0,"File:UnforgivingDevicesMain.psc:ShowSingleMessageBox"]]]]);
+﻿NDSearch.OnPrefixDataLoaded("sho",["Function"],[["ShowMessageBox",,[[,,,,0,"File:UnforgivingDevicesMain.psc:ShowMessageBox"]]],["ShowSingleMessageBox",,[[,,,,0,"File:UnforgivingDevicesMain.psc:ShowSingleMessageBox"]]],["ShowSoulgemMessage",,[[,,,,0,"File:UDCustomDeviceMain.psc:ShowSoulgemMessage"]]]]);

@@ -1,1 +1,1 @@
-﻿NDSearch.OnPrefixDataLoaded("mak",["Function"],[["MakeDeviceHeader",,[[,,,,0,"File:UnforgivingDevicesMain.psc:MakeDeviceHeader"]]]]);
+﻿NDSearch.OnPrefixDataLoaded("mak",["Function"],[["MakeDeviceHeader",,[[,,,,0,"File:UnforgivingDevicesMain.psc:MakeDeviceHeader"]]],["MakeNewDeviceSlots",,[[,,,,0,"File:UDCustomDeviceMain.psc:MakeNewDeviceSlots"]]]]);

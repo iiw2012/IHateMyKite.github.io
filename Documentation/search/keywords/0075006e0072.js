@@ -1,1 +1,1 @@
-﻿NDSearch.OnPrefixDataLoaded("unr",["Function"],[["UnregisterNPC",,[[,,,,0,"File:UD_API.psc:UnregisterNPC"]]]]);
+﻿NDSearch.OnPrefixDataLoaded("unr",["Function"],[["unregisterDevice",,[[,,,,0,"File:UDCustomDeviceMain.psc:unregisterDevice"]]],["UnregisterNPC",,[[,,,,0,"File:UD_API.psc:UnregisterNPC"]]]]);

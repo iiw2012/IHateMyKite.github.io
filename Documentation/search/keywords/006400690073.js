@@ -1,1 +1,1 @@
-﻿NDSearch.OnPrefixDataLoaded("dis",["Function"],[["DISABLE",,[[,,,,0,"File:UnforgivingDevicesMain.psc:DISABLE"]]]]);
+﻿NDSearch.OnPrefixDataLoaded("dis",["Function"],[["DISABLE",,[[,,,,0,"File:UnforgivingDevicesMain.psc:DISABLE"]]],["DisableActor",,[[,,,,0,"File:UDCustomDeviceMain.psc:DisableActor"]]],["disableStruggleCondVar",,[[,,,,0,"File:UDCustomDeviceMain.psc:disableStruggleCondVar"]]]]);
