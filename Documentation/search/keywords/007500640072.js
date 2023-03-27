@@ -1,1 +1,1 @@
-﻿NDSearch.OnPrefixDataLoaded("udr",["Function"],[["UDReady",,[[,,,,0,"File:UnforgivingDevicesMain.psc:UDReady"]]]]);
+﻿NDSearch.OnPrefixDataLoaded("udr",["Function","Variable"],[["UDReady",,[[,,,,0,"File:UnforgivingDevicesMain.psc:UDReady"]]],["UDRRM",,[[,,,,1,"File:UD_API.psc:UDRRM"]]]]);

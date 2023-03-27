@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("cha",["Function"],[["ChangeSoulgemState",,[[,,,,0,"File:UDCustomDeviceMain.psc:ChangeSoulgemState"]]]]);

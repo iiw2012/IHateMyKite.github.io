@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("uda",["Variable"],[["UDAbadonQuest",,[[,,,,0,"File:UD_API.psc:UDAbadonQuest"]]],["UDAI",,[[,,,,0,"File:UnforgivingDevicesMain.psc:UDAI"]]],["UDAM",,[[,,,,0,"File:UD_API.psc:UDAM"]]]]);

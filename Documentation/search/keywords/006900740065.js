@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("ite",["Variable"],[["ItemManager",,[[,,,,0,"File:UnforgivingDevicesMain.psc:ItemManager"]]]]);
