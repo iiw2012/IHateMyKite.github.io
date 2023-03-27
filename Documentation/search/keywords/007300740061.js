@@ -1,1 +1,1 @@
-﻿NDSearch.OnPrefixDataLoaded("sta",["Function"],[["StartMinigameDisable",,[[,,,,0,"File:UDCustomDeviceMain.psc:StartMinigameDisable"]]],["startVibFunction",,[[,,,,0,"File:UDCustomDeviceMain.psc:startVibFunction"]]]]);
+﻿NDSearch.OnPrefixDataLoaded("sta",["Function"],[["StartMinigameDisable",,[[,,,,0,"File:UDCustomDeviceMain.psc:StartMinigameDisable"]]],["startOrgasm",,[[,,,,0,"File:UD_OrgasmManager.psc:startOrgasm"]]],["startVibFunction",,[[,,,,0,"File:UDCustomDeviceMain.psc:startVibFunction"]]]]);

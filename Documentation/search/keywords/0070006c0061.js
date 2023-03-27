@@ -1,1 +1,1 @@
-﻿NDSearch.OnPrefixDataLoaded("pla",["Function"],[["PlayerInMinigame",,[[,,,,0,"File:UDCustomDeviceMain.psc:PlayerInMinigame"]]],["PlayerMenu",,[[,,,,0,"File:UDCustomDeviceMain.psc:PlayerMenu"]]]]);
+﻿NDSearch.OnPrefixDataLoaded("pla",["Function"],[["PlayerInMinigame",,[[,,,,0,"File:UDCustomDeviceMain.psc:PlayerInMinigame"]]],["PlayerMenu",,[[,,,,0,"File:UDCustomDeviceMain.psc:PlayerMenu"]]],["PlayOrgasmAnimation",,[[,,,,0,"File:UD_OrgasmManager.psc:PlayOrgasmAnimation"]]]]);

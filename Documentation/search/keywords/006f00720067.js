@@ -1,1 +1,1 @@
-﻿NDSearch.OnPrefixDataLoaded("org",["Function"],[["Orgasm",,[[,,,,0,"File:UD_API.psc:Orgasm"]]]]);
+﻿NDSearch.OnPrefixDataLoaded("org",["Function","Variable"],[["Orgasm",,[[,,,,0,"File:UD_API.psc:Orgasm"]]],["OrgasmFaction",,[[,,,,1,"File:UD_OrgasmManager.psc:OrgasmFaction"]]],["OrgasmResistFaction",,[[,,,,1,"File:UD_OrgasmManager.psc:OrgasmResistFaction"]]]]);
