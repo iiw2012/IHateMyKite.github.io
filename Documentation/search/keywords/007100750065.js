@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("que",["Variable"],[["QuestKeywords",,[[,,,,0,"File:UD_PatchInit.psc:QuestKeywords"]]]]);

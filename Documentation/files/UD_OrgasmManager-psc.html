@@ -8,294 +8,294 @@
 
 <body onload="NDLoader.OnLoad('Content');" class="NDPage NDContentPage">
 
-<a name="UD_OrgasmManager"></a><a name="Topic126"></a><div class="CTopic TFile LPapyrus first">
+<a name="UD_OrgasmManager"></a><a name="Topic18"></a><div class="CTopic TFile LPapyrus first">
  <div class="CTitle">UD_OrgasmManager</div>
- <div id="NDPrototype126" class="NDPrototype"><div class="PSection PPlainSection">Scriptname UD_OrgasmManager <span class="SHKeyword">extends</span> Quest conditional</div></div>
+ <div id="NDPrototype18" class="NDPrototype"><div class="PSection PPlainSection">Scriptname UD_OrgasmManager <span class="SHKeyword">extends</span> Quest conditional</div></div>
  <div class="CBody"><p>Contains functions for manipulating orgasm related variables and other manipulation functions</p></div>
 </div>
 
-<a name="Config"></a><a name="Topic127"></a><div class="CTopic TGroup LPapyrus">
+<a name="Config"></a><a name="Topic19"></a><div class="CTopic TGroup LPapyrus">
  <div class="CTitle">Config</div>
 </div>
 
-<a name="UD_OrgasmResistence"></a><a name="Topic128"></a><div class="CTopic TVariable LPapyrus">
+<a name="UD_OrgasmResistence"></a><a name="Topic20"></a><div class="CTopic TVariable LPapyrus">
  <div class="CTitle">UD_OrgasmResistence</div>
- <div id="NDPrototype128" class="NDPrototype"><div class="PSection PPlainSection"><span class="SHKeyword">float</span> Property UD_OrgasmResistence = <span class="SHNumber">3.5</span> auto hidden</div></div>
+ <div id="NDPrototype20" class="NDPrototype"><div class="PSection PPlainSection"><span class="SHKeyword">float</span> Property UD_OrgasmResistence = <span class="SHNumber">3.5</span> auto hidden</div></div>
  <div class="CBody"><p>Default orgasm resistence</p><p>Do not edit, <b>READ ONLY!</b> Is set by user with MCM</p></div>
 </div>
 
-<a name="UD_UseOrgasmWidget"></a><a name="Topic129"></a><div class="CTopic TVariable LPapyrus">
+<a name="UD_UseOrgasmWidget"></a><a name="Topic21"></a><div class="CTopic TVariable LPapyrus">
  <div class="CTitle">UD_UseOrgasmWidget</div>
- <div id="NDPrototype129" class="NDPrototype"><div class="PSection PPlainSection"><span class="SHKeyword">bool</span> Property UD_UseOrgasmWidget = True auto hidden</div></div>
+ <div id="NDPrototype21" class="NDPrototype"><div class="PSection PPlainSection"><span class="SHKeyword">bool</span> Property UD_UseOrgasmWidget = True auto hidden</div></div>
  <div class="CBody"><p>If orgasm widget should be shown</p><p>Do not edit, <b>READ ONLY!</b> Is set by user with MCM</p></div>
 </div>
 
-<a name="UD_OrgasmUpdateTime"></a><a name="Topic130"></a><div class="CTopic TVariable LPapyrus">
+<a name="UD_OrgasmUpdateTime"></a><a name="Topic22"></a><div class="CTopic TVariable LPapyrus">
  <div class="CTitle">UD_OrgasmUpdateTime</div>
- <div id="NDPrototype130" class="NDPrototype"><div class="PSection PPlainSection"><span class="SHKeyword">float</span> Property UD_OrgasmUpdateTime = <span class="SHNumber">0.2</span> auto hidden</div></div>
+ <div id="NDPrototype22" class="NDPrototype"><div class="PSection PPlainSection"><span class="SHKeyword">float</span> Property UD_OrgasmUpdateTime = <span class="SHNumber">0.2</span> auto hidden</div></div>
  <div class="CBody"><p>Orgasm update time. Only used by Player. NPC have sepperate global variable</p><p>Do not edit, <b>READ ONLY!</b> Is set by user with MCM</p></div>
 </div>
 
-<a name="UD_OrgasmAnimation"></a><a name="Topic131"></a><div class="CTopic TVariable LPapyrus">
+<a name="UD_OrgasmAnimation"></a><a name="Topic23"></a><div class="CTopic TVariable LPapyrus">
  <div class="CTitle">UD_OrgasmAnimation</div>
- <div id="NDPrototype131" class="NDPrototype"><div class="PSection PPlainSection"><span class="SHKeyword">int</span> Property UD_OrgasmAnimation = <span class="SHNumber">1</span> auto hidden</div></div>
+ <div id="NDPrototype23" class="NDPrototype"><div class="PSection PPlainSection"><span class="SHKeyword">int</span> Property UD_OrgasmAnimation = <span class="SHNumber">1</span> auto hidden</div></div>
  <div class="CBody"><p>Orgasm animation list.</p><pre class="CCode"><span class="SHNumber">0</span> = Only orgasm animations are used <span class="SHKeyword">for</span> orgasm<br /><span class="SHNumber">1</span> = Both orgasm and horny animations are used <span class="SHKeyword">for</span> orgasm</pre><p>Do not edit, <b>READ ONLY!</b> Is set by user with MCM</p></div>
 </div>
 
-<a name="UD_OrgasmDuration"></a><a name="Topic132"></a><div class="CTopic TVariable LPapyrus">
+<a name="UD_OrgasmDuration"></a><a name="Topic24"></a><div class="CTopic TVariable LPapyrus">
  <div class="CTitle">UD_OrgasmDuration</div>
- <div id="NDPrototype132" class="NDPrototype"><div class="PSection PPlainSection"><span class="SHKeyword">int</span> Property UD_OrgasmDuration = <span class="SHNumber">20</span> auto hidden</div></div>
+ <div id="NDPrototype24" class="NDPrototype"><div class="PSection PPlainSection"><span class="SHKeyword">int</span> Property UD_OrgasmDuration = <span class="SHNumber">20</span> auto hidden</div></div>
  <div class="CBody"><p>Duration of orgasm.</p><p>Do not edit, <b>READ ONLY!</b> Is set by user with MCM</p></div>
 </div>
 
-<a name="UD_HornyAnimation"></a><a name="Topic133"></a><div class="CTopic TVariable LPapyrus">
+<a name="UD_HornyAnimation"></a><a name="Topic25"></a><div class="CTopic TVariable LPapyrus">
  <div class="CTitle">UD_HornyAnimation</div>
- <div id="NDPrototype133" class="NDPrototype"><div class="PSection PPlainSection"><span class="SHKeyword">bool</span> Property UD_HornyAnimation = <span class="SHKeyword">true</span> auto hidden</div></div>
+ <div id="NDPrototype25" class="NDPrototype"><div class="PSection PPlainSection"><span class="SHKeyword">bool</span> Property UD_HornyAnimation = <span class="SHKeyword">true</span> auto hidden</div></div>
  <div class="CBody"><p>If horny animations can play while actor is aroused</p><p>Do not edit, <b>READ ONLY!</b> Is set by user with MCM</p></div>
 </div>
 
-<a name="UD_HornyAnimationDuration"></a><a name="Topic134"></a><div class="CTopic TVariable LPapyrus">
+<a name="UD_HornyAnimationDuration"></a><a name="Topic26"></a><div class="CTopic TVariable LPapyrus">
  <div class="CTitle">UD_HornyAnimationDuration</div>
- <div id="NDPrototype134" class="NDPrototype"><div class="PSection PPlainSection"><span class="SHKeyword">int</span> Property UD_HornyAnimationDuration = <span class="SHNumber">5</span> auto hidden</div></div>
- <div class="CBody"><p>Duration of horny animation. Requires <a href="../index.html#File:UD_OrgasmManager.psc:UD_HornyAnimation" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,133);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >UD_HornyAnimation</a> to be enabled first</p><p>Do not edit, <b>READ ONLY!</b> Is set by user with MCM</p></div>
+ <div id="NDPrototype26" class="NDPrototype"><div class="PSection PPlainSection"><span class="SHKeyword">int</span> Property UD_HornyAnimationDuration = <span class="SHNumber">5</span> auto hidden</div></div>
+ <div class="CBody"><p>Duration of horny animation. Requires <a href="../index.html#File:UD_OrgasmManager.psc:UD_HornyAnimation" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,25);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >UD_HornyAnimation</a> to be enabled first</p><p>Do not edit, <b>READ ONLY!</b> Is set by user with MCM</p></div>
 </div>
 
-<a name="UD_OrgasmArousalReduce"></a><a name="Topic135"></a><div class="CTopic TVariable LPapyrus">
+<a name="UD_OrgasmArousalReduce"></a><a name="Topic27"></a><div class="CTopic TVariable LPapyrus">
  <div class="CTitle">UD_OrgasmArousalReduce</div>
- <div id="NDPrototype135" class="NDPrototype"><div class="PSection PPlainSection">Int Property UD_OrgasmArousalReduce = <span class="SHNumber">25</span> auto hidden</div></div>
+ <div id="NDPrototype27" class="NDPrototype"><div class="PSection PPlainSection">Int Property UD_OrgasmArousalReduce = <span class="SHNumber">25</span> auto hidden</div></div>
  <div class="CBody"><p>How much will be arousal rate reduced per second on orgasm</p><p>Do not edit, <b>READ ONLY!</b> Is set by user with MCM</p></div>
 </div>
 
-<a name="UD_OrgasmArousalReduceDuration"></a><a name="Topic136"></a><div class="CTopic TVariable LPapyrus">
+<a name="UD_OrgasmArousalReduceDuration"></a><a name="Topic28"></a><div class="CTopic TVariable LPapyrus">
  <div class="CTitle">UD_OrgasmArousalReduceDuration</div>
- <div id="NDPrototype136" class="NDPrototype"><div class="PSection PPlainSection">Int Property UD_OrgasmArousalReduceDuration = <span class="SHNumber">7</span> auto hidden</div></div>
- <div class="CBody"><p>How long will <a href="../index.html#File:UD_OrgasmManager.psc:UD_OrgasmArousalReduce" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,135);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >UD_OrgasmArousalReduce</a> last</p><p>Do not edit, <b>READ ONLY!</b> Is set by user with MCM</p></div>
+ <div id="NDPrototype28" class="NDPrototype"><div class="PSection PPlainSection">Int Property UD_OrgasmArousalReduceDuration = <span class="SHNumber">7</span> auto hidden</div></div>
+ <div class="CBody"><p>How long will <a href="../index.html#File:UD_OrgasmManager.psc:UD_OrgasmArousalReduce" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,27);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >UD_OrgasmArousalReduce</a> last</p><p>Do not edit, <b>READ ONLY!</b> Is set by user with MCM</p></div>
 </div>
 
-<a name="OrgasmFaction"></a><a name="Topic137"></a><div class="CTopic TVariable LPapyrus">
+<a name="OrgasmFaction"></a><a name="Topic29"></a><div class="CTopic TVariable LPapyrus">
  <div class="CTitle">OrgasmFaction</div>
- <div id="NDPrototype137" class="NDPrototype"><div class="PSection PPlainSection">Faction Property OrgasmFaction auto</div></div>
+ <div id="NDPrototype29" class="NDPrototype"><div class="PSection PPlainSection">Faction Property OrgasmFaction auto</div></div>
  <div class="CBody"><p>Faction to which will ba actor added for duration of orgasm</p><p>Do not edit, <b>READ ONLY!</b></p></div>
 </div>
 
-<a name="OrgasmResistFaction"></a><a name="Topic138"></a><div class="CTopic TVariable LPapyrus">
+<a name="OrgasmResistFaction"></a><a name="Topic30"></a><div class="CTopic TVariable LPapyrus">
  <div class="CTitle">OrgasmResistFaction</div>
- <div id="NDPrototype138" class="NDPrototype"><div class="PSection PPlainSection">Faction Property OrgasmResistFaction auto</div></div>
+ <div id="NDPrototype30" class="NDPrototype"><div class="PSection PPlainSection">Faction Property OrgasmResistFaction auto</div></div>
  <div class="CBody"><p>Faction to which will ba actor added if they are in resist orgasm minigame</p><p>Do not edit, <b>READ ONLY!</b></p></div>
 </div>
 
-<a name="Ready"></a><a name="Topic139"></a><div class="CTopic TVariable LPapyrus">
+<a name="Ready"></a><a name="Topic31"></a><div class="CTopic TVariable LPapyrus">
  <div class="CTitle">Ready</div>
- <div id="NDPrototype139" class="NDPrototype"><div class="PSection PPlainSection"><span class="SHKeyword">bool</span> Property Ready auto conditional</div></div>
+ <div id="NDPrototype31" class="NDPrototype"><div class="PSection PPlainSection"><span class="SHKeyword">bool</span> Property Ready auto conditional</div></div>
  <div class="CBody"><p>Will be toggled to True once script is ready</p><p>Do not edit, <b>READ ONLY!</b></p></div>
 </div>
 
-<a name="Arousal_values"></a><a name="Topic140"></a><div class="CTopic TGroup LPapyrus">
+<a name="Arousal_values"></a><a name="Topic32"></a><div class="CTopic TGroup LPapyrus">
  <div class="CTitle">Arousal values</div>
 </div>
 
-<a name="UpdateArousal"></a><a name="Topic141"></a><div class="CTopic TFunction LPapyrus">
+<a name="UpdateArousal"></a><a name="Topic33"></a><div class="CTopic TFunction LPapyrus">
  <div class="CTitle">UpdateArousal</div>
- <div id="NDPrototype141" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters">Int Function UpdateArousal(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor ,</td></tr><tr><td class="PType first"><span class="SHKeyword">float</span>&nbsp;</td><td class="PName last">aiDiff</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
+ <div id="NDPrototype33" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters">Int Function UpdateArousal(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor ,</td></tr><tr><td class="PType first"><span class="SHKeyword">float</span>&nbsp;</td><td class="PName last">aiDiff</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
  <div class="CBody"><div class="CHeading">Parameters</div><table class="CDefinitionList"><tr><td class="CDLEntry">akActor<div class="CDLParameterType">Actor</div></td><td class="CDLDefinition"><p>Actor whose arousal will be updated</p></td></tr><tr><td class="CDLEntry">aiDiff<div class="CDLParameterType"><span class="SHKeyword">float</span></div></td><td class="CDLDefinition"><p>By how much. Can be both positive and negative</p></td></tr></table><div class="CHeading">Returns</div><p>New values of arousal after update</p></div>
 </div>
 
-<a name="getArousal"></a><a name="Topic142"></a><div class="CTopic TFunction LPapyrus">
+<a name="getArousal"></a><a name="Topic34"></a><div class="CTopic TFunction LPapyrus">
  <div class="CTitle">getArousal</div>
- <div id="NDPrototype142" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters">Int Function getArousal(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
+ <div id="NDPrototype34" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters">Int Function getArousal(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
  <div class="CBody"><p>Faster version of &lt;getActorArousal&gt; which uses faction.</p><div class="CHeading">Parameters</div><table class="CDefinitionList"><tr><td class="CDLEntry">akActor<div class="CDLParameterType">Actor</div></td><td class="CDLDefinition"><p>Actor whose arousal will be returned</p></td></tr></table><div class="CHeading">Returns</div><p>Current actor arousal</p></div>
 </div>
 
-<a name="getArousal(2)"></a><a name="Topic143"></a><div class="CTopic TFunction LPapyrus">
+<a name="getArousal(2)"></a><a name="Topic35"></a><div class="CTopic TFunction LPapyrus">
  <div class="CTitle">getArousal</div>
  <div class="CBody"><div class="CHeading">Parameters</div><table class="CDefinitionList"><tr><td class="CDLEntry">akActor</td><td class="CDLDefinition"><p>Actor whose arousal will be returned</p></td></tr></table><div class="CHeading">Returns</div><p>Current actor arousal</p></div>
 </div>
 
-<a name="UpdateArousalRate"></a><a name="Topic144"></a><div class="CTopic TFunction LPapyrus">
+<a name="UpdateArousalRate"></a><a name="Topic36"></a><div class="CTopic TFunction LPapyrus">
  <div class="CTitle">UpdateArousalRate</div>
- <div id="NDPrototype144" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters">Float Function UpdateArousalRate(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor ,</td></tr><tr><td class="PType first"><span class="SHKeyword">float</span>&nbsp;</td><td class="PName last">fArousalRate</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
- <div class="CBody"><p>See <a href="../index.html#File:UD_API.psc:UpdateArousalRate" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,236);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >UpdateArousalRate</a></p></div>
+ <div id="NDPrototype36" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters">Float Function UpdateArousalRate(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor ,</td></tr><tr><td class="PType first"><span class="SHKeyword">float</span>&nbsp;</td><td class="PName last">fArousalRate</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
+ <div class="CBody"><p>See <a href="../index.html#File:UD_API.psc:UpdateArousalRate" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,267);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >UpdateArousalRate</a></p></div>
 </div>
 
-<a name="getArousalRate"></a><a name="Topic145"></a><div class="CTopic TFunction LPapyrus">
+<a name="getArousalRate"></a><a name="Topic37"></a><div class="CTopic TFunction LPapyrus">
  <div class="CTitle">getArousalRate</div>
- <div id="NDPrototype145" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters">Float Function getArousalRate(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
- <div class="CBody"><p>See <a href="../index.html#File:UD_API.psc:GetArousalRate" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,225);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >getArousalRate</a></p></div>
+ <div id="NDPrototype37" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters">Float Function getArousalRate(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
+ <div class="CBody"><p>See <a href="../index.html#File:UD_API.psc:GetArousalRate" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,256);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >getArousalRate</a></p></div>
 </div>
 
-<a name="getArousalRateM"></a><a name="Topic146"></a><div class="CTopic TFunction LPapyrus">
+<a name="getArousalRateM"></a><a name="Topic38"></a><div class="CTopic TFunction LPapyrus">
  <div class="CTitle">getArousalRateM</div>
- <div id="NDPrototype146" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters">Float Function getArousalRateM(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
- <div class="CBody"><p>See <a href="../index.html#File:UD_API.psc:GetArousalRate" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,225);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >getArousalRate</a></p></div>
+ <div id="NDPrototype38" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters">Float Function getArousalRateM(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
+ <div class="CBody"><p>See <a href="../index.html#File:UD_API.psc:GetArousalRate" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,256);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >getArousalRate</a></p></div>
 </div>
 
-<a name="UpdateArousalRateMultiplier"></a><a name="Topic147"></a><div class="CTopic TFunction LPapyrus">
+<a name="UpdateArousalRateMultiplier"></a><a name="Topic39"></a><div class="CTopic TFunction LPapyrus">
  <div class="CTitle">UpdateArousalRateMultiplier</div>
- <div id="NDPrototype147" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters">Float Function UpdateArousalRateMultiplier(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor ,</td></tr><tr><td class="PType first"><span class="SHKeyword">float</span>&nbsp;</td><td class="PName last">fArousalRateM</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
- <div class="CBody"><p>See <a href="../index.html#File:UD_API.psc:UpdateArousalRateMultiplier" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,240);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >UpdateArousalRateMultiplier</a></p></div>
+ <div id="NDPrototype39" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters">Float Function UpdateArousalRateMultiplier(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor ,</td></tr><tr><td class="PType first"><span class="SHKeyword">float</span>&nbsp;</td><td class="PName last">fArousalRateM</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
+ <div class="CBody"><p>See <a href="../index.html#File:UD_API.psc:UpdateArousalRateMultiplier" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,271);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >UpdateArousalRateMultiplier</a></p></div>
 </div>
 
-<a name="getArousalRateMultiplier"></a><a name="Topic148"></a><div class="CTopic TFunction LPapyrus">
+<a name="getArousalRateMultiplier"></a><a name="Topic40"></a><div class="CTopic TFunction LPapyrus">
  <div class="CTitle">getArousalRateMultiplier</div>
- <div id="NDPrototype148" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters">Float Function getArousalRateMultiplier(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
- <div class="CBody"><p>See <a href="../index.html#File:UD_API.psc:GetArousalRateMultiplier" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,231);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >getArousalRateMultiplier</a></p></div>
+ <div id="NDPrototype40" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters">Float Function getArousalRateMultiplier(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
+ <div class="CBody"><p>See <a href="../index.html#File:UD_API.psc:GetArousalRateMultiplier" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,262);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >getArousalRateMultiplier</a></p></div>
 </div>
 
-<a name="Orgasm_values"></a><a name="Topic149"></a><div class="CTopic TGroup LPapyrus">
+<a name="Orgasm_values"></a><a name="Topic41"></a><div class="CTopic TGroup LPapyrus">
  <div class="CTitle">Orgasm values</div>
 </div>
 
-<a name="UpdateOrgasmRate"></a><a name="Topic150"></a><div class="CTopic TFunction LPapyrus">
+<a name="UpdateOrgasmRate"></a><a name="Topic42"></a><div class="CTopic TFunction LPapyrus">
  <div class="CTitle">UpdateOrgasmRate</div>
- <div id="NDPrototype150" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">float</span> Function UpdateOrgasmRate(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor ,</td></tr><tr><td class="PType first"><span class="SHKeyword">float</span>&nbsp;</td><td class="PName last">orgasmRate,</td></tr><tr><td class="PType first"><span class="SHKeyword">float</span>&nbsp;</td><td class="PName last">orgasmForcing</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
- <div class="CBody"><p>See <a href="../index.html#File:UD_API.psc:UpdateOrgasmRate" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,235);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >UpdateOrgasmRate</a></p></div>
+ <div id="NDPrototype42" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">float</span> Function UpdateOrgasmRate(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor ,</td></tr><tr><td class="PType first"><span class="SHKeyword">float</span>&nbsp;</td><td class="PName last">orgasmRate,</td></tr><tr><td class="PType first"><span class="SHKeyword">float</span>&nbsp;</td><td class="PName last">orgasmForcing</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
+ <div class="CBody"><p>See <a href="../index.html#File:UD_API.psc:UpdateOrgasmRate" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,266);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >UpdateOrgasmRate</a></p></div>
 </div>
 
-<a name="getActorOrgasmRate"></a><a name="Topic151"></a><div class="CTopic TFunction LPapyrus">
+<a name="getActorOrgasmRate"></a><a name="Topic43"></a><div class="CTopic TFunction LPapyrus">
  <div class="CTitle">getActorOrgasmRate</div>
- <div id="NDPrototype151" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">float</span> Function getActorOrgasmRate(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
- <div class="CBody"><p>See <a href="../index.html#File:UD_API.psc:GetOrgasmRate" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,223);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >GetOrgasmRate</a></p></div>
+ <div id="NDPrototype43" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">float</span> Function getActorOrgasmRate(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
+ <div class="CBody"><p>See <a href="../index.html#File:UD_API.psc:GetOrgasmRate" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,254);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >GetOrgasmRate</a></p></div>
 </div>
 
-<a name="getActorAfterMultOrgasmRate"></a><a name="Topic152"></a><div class="CTopic TFunction LPapyrus">
+<a name="getActorAfterMultOrgasmRate"></a><a name="Topic44"></a><div class="CTopic TFunction LPapyrus">
  <div class="CTitle">getActorAfterMultOrgasmRate</div>
- <div id="NDPrototype152" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">float</span> Function getActorAfterMultOrgasmRate(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
- <div class="CBody"><p>See <a href="../index.html#File:UD_API.psc:GetOrgasmRate" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,223);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >GetOrgasmRate</a></p></div>
+ <div id="NDPrototype44" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">float</span> Function getActorAfterMultOrgasmRate(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
+ <div class="CBody"><p>See <a href="../index.html#File:UD_API.psc:GetOrgasmRate" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,254);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >GetOrgasmRate</a></p></div>
 </div>
 
-<a name="getActorAfterMultAntiOrgasmRate"></a><a name="Topic153"></a><div class="CTopic TFunction LPapyrus">
+<a name="getActorAfterMultAntiOrgasmRate"></a><a name="Topic45"></a><div class="CTopic TFunction LPapyrus">
  <div class="CTitle">getActorAfterMultAntiOrgasmRate</div>
- <div id="NDPrototype153" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">float</span> Function getActorAfterMultAntiOrgasmRate(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
- <div class="CBody"><p>See <a href="../index.html#File:UD_API.psc:GetAntiOrgasmRate" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,226);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >GetAntiOrgasmRate</a></p></div>
+ <div id="NDPrototype45" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">float</span> Function getActorAfterMultAntiOrgasmRate(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
+ <div class="CBody"><p>See <a href="../index.html#File:UD_API.psc:GetAntiOrgasmRate" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,257);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >GetAntiOrgasmRate</a></p></div>
 </div>
 
-<a name="getActorOrgasmForcing"></a><a name="Topic154"></a><div class="CTopic TFunction LPapyrus">
+<a name="getActorOrgasmForcing"></a><a name="Topic46"></a><div class="CTopic TFunction LPapyrus">
  <div class="CTitle">getActorOrgasmForcing</div>
- <div id="NDPrototype154" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">float</span> Function getActorOrgasmForcing(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
- <div class="CBody"><p>See <a href="../index.html#File:UD_API.psc:GetActorOrgasmForcing" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,227);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >getActorOrgasmForcing</a></p></div>
+ <div id="NDPrototype46" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">float</span> Function getActorOrgasmForcing(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
+ <div class="CBody"><p>See <a href="../index.html#File:UD_API.psc:GetActorOrgasmForcing" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,258);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >getActorOrgasmForcing</a></p></div>
 </div>
 
-<a name="UpdateOrgasmRateMultiplier"></a><a name="Topic155"></a><div class="CTopic TFunction LPapyrus">
+<a name="UpdateOrgasmRateMultiplier"></a><a name="Topic47"></a><div class="CTopic TFunction LPapyrus">
  <div class="CTitle">UpdateOrgasmRateMultiplier</div>
- <div id="NDPrototype155" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters">Float Function UpdateOrgasmRateMultiplier(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor ,</td></tr><tr><td class="PType first"><span class="SHKeyword">float</span>&nbsp;</td><td class="PName last">orgasmRateMultiplier</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
- <div class="CBody"><p>See <a href="../index.html#File:UD_API.psc:UpdateOrgasmRateMultiplier" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,237);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >UpdateOrgasmRateMultiplier</a></p></div>
+ <div id="NDPrototype47" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters">Float Function UpdateOrgasmRateMultiplier(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor ,</td></tr><tr><td class="PType first"><span class="SHKeyword">float</span>&nbsp;</td><td class="PName last">orgasmRateMultiplier</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
+ <div class="CBody"><p>See <a href="../index.html#File:UD_API.psc:UpdateOrgasmRateMultiplier" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,268);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >UpdateOrgasmRateMultiplier</a></p></div>
 </div>
 
-<a name="getActorOrgasmRateMultiplier"></a><a name="Topic156"></a><div class="CTopic TFunction LPapyrus">
+<a name="getActorOrgasmRateMultiplier"></a><a name="Topic48"></a><div class="CTopic TFunction LPapyrus">
  <div class="CTitle">getActorOrgasmRateMultiplier</div>
- <div id="NDPrototype156" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">float</span> Function getActorOrgasmRateMultiplier(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
- <div class="CBody"><p>See <a href="../index.html#File:UD_API.psc:GetOrgasmRateMultiplier" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,228);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >GetOrgasmRateMultiplier</a></p></div>
+ <div id="NDPrototype48" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">float</span> Function getActorOrgasmRateMultiplier(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
+ <div class="CBody"><p>See <a href="../index.html#File:UD_API.psc:GetOrgasmRateMultiplier" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,259);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >GetOrgasmRateMultiplier</a></p></div>
 </div>
 
-<a name="UpdateOrgasmResist"></a><a name="Topic157"></a><div class="CTopic TFunction LPapyrus">
+<a name="UpdateOrgasmResist"></a><a name="Topic49"></a><div class="CTopic TFunction LPapyrus">
  <div class="CTitle">UpdateOrgasmResist</div>
- <div id="NDPrototype157" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters">Float Function UpdateOrgasmResist(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor ,</td></tr><tr><td class="PType first"><span class="SHKeyword">float</span>&nbsp;</td><td class="PName last">orgasmResist</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
- <div class="CBody"><p>See <a href="../index.html#File:UD_API.psc:UpdateOrgasmResist" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,238);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >UpdateOrgasmResist</a></p></div>
+ <div id="NDPrototype49" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters">Float Function UpdateOrgasmResist(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor ,</td></tr><tr><td class="PType first"><span class="SHKeyword">float</span>&nbsp;</td><td class="PName last">orgasmResist</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
+ <div class="CBody"><p>See <a href="../index.html#File:UD_API.psc:UpdateOrgasmResist" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,269);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >UpdateOrgasmResist</a></p></div>
 </div>
 
-<a name="getActorOrgasmResist"></a><a name="Topic158"></a><div class="CTopic TFunction LPapyrus">
+<a name="getActorOrgasmResist"></a><a name="Topic50"></a><div class="CTopic TFunction LPapyrus">
  <div class="CTitle">getActorOrgasmResist</div>
- <div id="NDPrototype158" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">float</span> Function getActorOrgasmResist(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
- <div class="CBody"><p>See <a href="../index.html#File:UD_API.psc:GetOrgasmResist" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,229);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >GetOrgasmResist</a></p></div>
+ <div id="NDPrototype50" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">float</span> Function getActorOrgasmResist(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
+ <div class="CBody"><p>See <a href="../index.html#File:UD_API.psc:GetOrgasmResist" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,260);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >GetOrgasmResist</a></p></div>
 </div>
 
-<a name="getActorOrgasmResistM"></a><a name="Topic159"></a><div class="CTopic TFunction LPapyrus">
+<a name="getActorOrgasmResistM"></a><a name="Topic51"></a><div class="CTopic TFunction LPapyrus">
  <div class="CTitle">getActorOrgasmResistM</div>
- <div id="NDPrototype159" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">float</span> Function getActorOrgasmResistM(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
- <div class="CBody"><p>See <a href="../index.html#File:UD_API.psc:GetOrgasmResist" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,229);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >GetOrgasmResist</a></p></div>
+ <div id="NDPrototype51" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">float</span> Function getActorOrgasmResistM(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
+ <div class="CBody"><p>See <a href="../index.html#File:UD_API.psc:GetOrgasmResist" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,260);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >GetOrgasmResist</a></p></div>
 </div>
 
-<a name="UpdateOrgasmResistMultiplier"></a><a name="Topic160"></a><div class="CTopic TFunction LPapyrus">
+<a name="UpdateOrgasmResistMultiplier"></a><a name="Topic52"></a><div class="CTopic TFunction LPapyrus">
  <div class="CTitle">UpdateOrgasmResistMultiplier</div>
- <div id="NDPrototype160" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters">Float Function UpdateOrgasmResistMultiplier(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor ,</td></tr><tr><td class="PType first"><span class="SHKeyword">float</span>&nbsp;</td><td class="PName last">orgasmResistMultiplier</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
- <div class="CBody"><p>See <a href="../index.html#File:UD_API.psc:UpdateOrgasmResistMultiplier" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,239);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >UpdateOrgasmResistMultiplier</a></p></div>
+ <div id="NDPrototype52" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters">Float Function UpdateOrgasmResistMultiplier(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor ,</td></tr><tr><td class="PType first"><span class="SHKeyword">float</span>&nbsp;</td><td class="PName last">orgasmResistMultiplier</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
+ <div class="CBody"><p>See <a href="../index.html#File:UD_API.psc:UpdateOrgasmResistMultiplier" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,270);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >UpdateOrgasmResistMultiplier</a></p></div>
 </div>
 
-<a name="getActorOrgasmResistMultiplier"></a><a name="Topic161"></a><div class="CTopic TFunction LPapyrus">
+<a name="getActorOrgasmResistMultiplier"></a><a name="Topic53"></a><div class="CTopic TFunction LPapyrus">
  <div class="CTitle">getActorOrgasmResistMultiplier</div>
- <div id="NDPrototype161" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">float</span> Function getActorOrgasmResistMultiplier(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
- <div class="CBody"><p>See <a href="../index.html#File:UD_API.psc:GetOrgasmResistMultiplier" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,230);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >GetOrgasmResistMultiplier</a></p></div>
+ <div id="NDPrototype53" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">float</span> Function getActorOrgasmResistMultiplier(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
+ <div class="CBody"><p>See <a href="../index.html#File:UD_API.psc:GetOrgasmResistMultiplier" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,261);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >GetOrgasmResistMultiplier</a></p></div>
 </div>
 
-<a name="GetOrgasmProgress"></a><a name="Topic162"></a><div class="CTopic TFunction LPapyrus">
+<a name="GetOrgasmProgress"></a><a name="Topic54"></a><div class="CTopic TFunction LPapyrus">
  <div class="CTitle">GetOrgasmProgress</div>
  <div class="CBody"><p>See &lt;getActorOrgasmProgress&gt;</p></div>
 </div>
 
-<a name="getOrgasmProgressPerc"></a><a name="Topic163"></a><div class="CTopic TFunction LPapyrus">
+<a name="getOrgasmProgressPerc"></a><a name="Topic55"></a><div class="CTopic TFunction LPapyrus">
  <div class="CTitle">getOrgasmProgressPerc</div>
- <div id="NDPrototype163" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">float</span> Function getOrgasmProgressPerc(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
- <div class="CBody"><p>See <a href="../index.html#File:UD_API.psc:GetOrgasmProgressPerc" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,233);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >getOrgasmProgressPerc</a></p></div>
+ <div id="NDPrototype55" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">float</span> Function getOrgasmProgressPerc(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
+ <div class="CBody"><p>See <a href="../index.html#File:UD_API.psc:GetOrgasmProgressPerc" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,264);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >getOrgasmProgressPerc</a></p></div>
 </div>
 
-<a name="UpdatetActorOrgasmCapacity"></a><a name="Topic164"></a><div class="CTopic TFunction LPapyrus">
+<a name="UpdatetActorOrgasmCapacity"></a><a name="Topic56"></a><div class="CTopic TFunction LPapyrus">
  <div class="CTitle">UpdatetActorOrgasmCapacity</div>
- <div id="NDPrototype164" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters">Int Function UpdatetActorOrgasmCapacity(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor,</td></tr><tr><td class="PType first"><span class="SHKeyword">float</span>&nbsp;</td><td class="PName last">fValue</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
- <div class="CBody"><p>See <a href="../index.html#File:UD_API.psc:UpdatetActorOrgasmCapacity" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,241);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >UpdatetActorOrgasmCapacity</a></p></div>
+ <div id="NDPrototype56" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters">Int Function UpdatetActorOrgasmCapacity(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor,</td></tr><tr><td class="PType first"><span class="SHKeyword">float</span>&nbsp;</td><td class="PName last">fValue</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
+ <div class="CBody"><p>See <a href="../index.html#File:UD_API.psc:UpdatetActorOrgasmCapacity" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,272);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >UpdatetActorOrgasmCapacity</a></p></div>
 </div>
 
-<a name="getActorOrgasmCapacity"></a><a name="Topic165"></a><div class="CTopic TFunction LPapyrus">
+<a name="getActorOrgasmCapacity"></a><a name="Topic57"></a><div class="CTopic TFunction LPapyrus">
  <div class="CTitle">getActorOrgasmCapacity</div>
- <div id="NDPrototype165" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">float</span> Function getActorOrgasmCapacity(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
- <div class="CBody"><p>See <a href="../index.html#File:UD_API.psc:GetActorOrgasmCapacity" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,234);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >getActorOrgasmCapacity</a></p></div>
+ <div id="NDPrototype57" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">float</span> Function getActorOrgasmCapacity(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
+ <div class="CBody"><p>See <a href="../index.html#File:UD_API.psc:GetActorOrgasmCapacity" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,265);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >getActorOrgasmCapacity</a></p></div>
 </div>
 
-<a name="Orgasm"></a><a name="Topic166"></a><div class="CTopic TGroup LPapyrus">
+<a name="Orgasm"></a><a name="Topic58"></a><div class="CTopic TGroup LPapyrus">
  <div class="CTitle">Orgasm</div>
 </div>
 
-<a name="ActorCanOrgasm"></a><a name="Topic167"></a><div class="CTopic TFunction LPapyrus">
+<a name="ActorCanOrgasm"></a><a name="Topic59"></a><div class="CTopic TFunction LPapyrus">
  <div class="CTitle">ActorCanOrgasm</div>
- <div id="NDPrototype167" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">bool</span> Function ActorCanOrgasm(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
+ <div id="NDPrototype59" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">bool</span> Function ActorCanOrgasm(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
  <div class="CBody"><p>Check if actor can orgasm with current orgasm values. This assumes full (100) arousal</p><div class="CHeading">Parameters</div><table class="CDefinitionList"><tr><td class="CDLEntry">akActor<div class="CDLParameterType">Actor</div></td><td class="CDLDefinition"><p>Actors who will be checked</p></td></tr></table><div class="CHeading">Returns</div><p>True if actor can orgasm</p></div>
 </div>
 
-<a name="ActorCanOrgasmHalf"></a><a name="Topic168"></a><div class="CTopic TFunction LPapyrus">
+<a name="ActorCanOrgasmHalf"></a><a name="Topic60"></a><div class="CTopic TFunction LPapyrus">
  <div class="CTitle">ActorCanOrgasmHalf</div>
- <div id="NDPrototype168" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">bool</span> Function ActorCanOrgasmHalf(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
+ <div id="NDPrototype60" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">bool</span> Function ActorCanOrgasmHalf(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
  <div class="CBody"><p>Check if actor can orgasm with current orgasm values. This assumes half (50) arousal</p><p>Because its not linear, orgasm rate would need to be gigantic</p><div class="CHeading">Parameters</div><table class="CDefinitionList"><tr><td class="CDLEntry">akActor<div class="CDLParameterType">Actor</div></td><td class="CDLDefinition"><p>Actors who will be checked</p></td></tr></table><div class="CHeading">Returns</div><p>True if actor can orgasm</p></div>
 </div>
 
-<a name="startOrgasm"></a><a name="Topic169"></a><div class="CTopic TFunction LPapyrus">
+<a name="startOrgasm"></a><a name="Topic61"></a><div class="CTopic TFunction LPapyrus">
  <div class="CTitle">startOrgasm</div>
- <div id="NDPrototype169" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters">Function startOrgasm(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName">akActor,</td><td></td><td class="last"></td></tr><tr><td class="PType first"><span class="SHKeyword">int</span>&nbsp;</td><td class="PName">duration,</td><td></td><td class="last"></td></tr><tr><td class="PType first"><span class="SHKeyword">int</span>&nbsp;</td><td class="PName">iArousalDecrease</td><td class="PDefaultValueSeparator">&nbsp;=&nbsp;</td><td class="PDefaultValue last"><span class="SHNumber">10</span>,</td></tr><tr><td class="PType first"><span class="SHKeyword">int</span>&nbsp;</td><td class="PName">iForce</td><td class="PDefaultValueSeparator">&nbsp;=&nbsp;</td><td class="PDefaultValue last"><span class="SHNumber">0</span>,</td></tr><tr><td class="PType first"><span class="SHKeyword">bool</span>&nbsp;</td><td class="PName">blocking</td><td class="PDefaultValueSeparator">&nbsp;=&nbsp;</td><td class="PDefaultValue last"><span class="SHKeyword">true</span></td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
- <div class="CBody"><p>See <a href="../index.html#File:UD_API.psc:Orgasm" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,242);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Orgasm</a></p></div>
+ <div id="NDPrototype61" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters">Function startOrgasm(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName">akActor,</td><td></td><td class="last"></td></tr><tr><td class="PType first"><span class="SHKeyword">int</span>&nbsp;</td><td class="PName">duration,</td><td></td><td class="last"></td></tr><tr><td class="PType first"><span class="SHKeyword">int</span>&nbsp;</td><td class="PName">iArousalDecrease</td><td class="PDefaultValueSeparator">&nbsp;=&nbsp;</td><td class="PDefaultValue last"><span class="SHNumber">10</span>,</td></tr><tr><td class="PType first"><span class="SHKeyword">int</span>&nbsp;</td><td class="PName">iForce</td><td class="PDefaultValueSeparator">&nbsp;=&nbsp;</td><td class="PDefaultValue last"><span class="SHNumber">0</span>,</td></tr><tr><td class="PType first"><span class="SHKeyword">bool</span>&nbsp;</td><td class="PName">blocking</td><td class="PDefaultValueSeparator">&nbsp;=&nbsp;</td><td class="PDefaultValue last"><span class="SHKeyword">true</span></td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
+ <div class="CBody"><p>See <a href="../index.html#File:UD_API.psc:Orgasm" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,273);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Orgasm</a></p></div>
 </div>
 
-<a name="isOrgasming"></a><a name="Topic170"></a><div class="CTopic TFunction LPapyrus">
+<a name="isOrgasming"></a><a name="Topic62"></a><div class="CTopic TFunction LPapyrus">
  <div class="CTitle">isOrgasming</div>
- <div id="NDPrototype170" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">bool</span> Function isOrgasming(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
+ <div id="NDPrototype62" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">bool</span> Function isOrgasming(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
  <div class="CBody"><p>Check if actor is currently orgasming</p><div class="CHeading">Parameters</div><table class="CDefinitionList"><tr><td class="CDLEntry">akActor<div class="CDLParameterType">Actor</div></td><td class="CDLDefinition"><p>Actors who will be checked</p></td></tr></table><div class="CHeading">Returns</div><p>True if actor is orgasming</p></div>
 </div>
 
-<a name="getOrgasmingCount"></a><a name="Topic171"></a><div class="CTopic TFunction LPapyrus">
+<a name="getOrgasmingCount"></a><a name="Topic63"></a><div class="CTopic TFunction LPapyrus">
  <div class="CTitle">getOrgasmingCount</div>
- <div id="NDPrototype171" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters">Int Function getOrgasmingCount(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
+ <div id="NDPrototype63" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters">Int Function getOrgasmingCount(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
  <div class="CBody"><p>Number of orgasm the actor currently have (in case actor orgasm again before previous orgasm ends)</p><div class="CHeading">Parameters</div><table class="CDefinitionList"><tr><td class="CDLEntry">akActor<div class="CDLParameterType">Actor</div></td><td class="CDLDefinition"><p>Actors who will be checked</p></td></tr></table><div class="CHeading">Returns</div><p>Number of orgasms</p></div>
 </div>
 
-<a name="GetOrgasmAnimDuration"></a><a name="Topic172"></a><div class="CTopic TFunction LPapyrus">
+<a name="GetOrgasmAnimDuration"></a><a name="Topic64"></a><div class="CTopic TFunction LPapyrus">
  <div class="CTitle">GetOrgasmAnimDuration</div>
- <div id="NDPrototype172" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters">Int Function GetOrgasmAnimDuration(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
+ <div id="NDPrototype64" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters">Int Function GetOrgasmAnimDuration(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
  <div class="CBody"><p>Get remaining duration of orgasm animation</p><div class="CHeading">Parameters</div><table class="CDefinitionList"><tr><td class="CDLEntry">akActor<div class="CDLParameterType">Actor</div></td><td class="CDLDefinition"><p>Actors who will be checked</p></td></tr></table><div class="CHeading">Returns</div><p>Remaining duration of orgasm</p></div>
 </div>
 
-<a name="PlayOrgasmAnimation"></a><a name="Topic173"></a><div class="CTopic TFunction LPapyrus">
+<a name="PlayOrgasmAnimation"></a><a name="Topic65"></a><div class="CTopic TFunction LPapyrus">
  <div class="CTitle">PlayOrgasmAnimation</div>
- <div id="NDPrototype173" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters">Int Function PlayOrgasmAnimation(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor,</td></tr><tr><td class="PType first"><span class="SHKeyword">int</span>&nbsp;</td><td class="PName last">aiDuration</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
+ <div id="NDPrototype65" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters">Int Function PlayOrgasmAnimation(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor,</td></tr><tr><td class="PType first"><span class="SHKeyword">int</span>&nbsp;</td><td class="PName last">aiDuration</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
  <div class="CBody"><p>Plays orgasm animation for aiDuration</p><div class="CHeading">Parameters</div><table class="CDefinitionList"><tr><td class="CDLEntry">akActor<div class="CDLParameterType">Actor</div></td><td class="CDLDefinition"><p>Actors who will be used in animation</p></td></tr><tr><td class="CDLEntry">aiDuration<div class="CDLParameterType"><span class="SHKeyword">int</span></div></td><td class="CDLDefinition"><p>For how long to play the animation</p></td></tr></table><div class="CHeading">Returns</div><p>1 in case of sucess. 0 in case of failure</p></div>
 </div>
 
-<a name="GetOrgasmExhaustion"></a><a name="Topic174"></a><div class="CTopic TFunction LPapyrus">
+<a name="GetOrgasmExhaustion"></a><a name="Topic66"></a><div class="CTopic TFunction LPapyrus">
  <div class="CTitle">GetOrgasmExhaustion</div>
- <div id="NDPrototype174" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">int</span> Function GetOrgasmExhaustion(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
+ <div id="NDPrototype66" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">int</span> Function GetOrgasmExhaustion(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
  <div class="CBody"><p>Get numer of orgasm exhaustions</p><div class="CHeading">Parameters</div><table class="CDefinitionList"><tr><td class="CDLEntry">akActor<div class="CDLParameterType">Actor</div></td><td class="CDLDefinition"><p>Checked actor</p></td></tr></table><div class="CHeading">Returns</div><p>Number of orgasm exhaustions actor currently have</p></div>
 </div>
 
-<a name="UpdateBaseOrgasmVals"></a><a name="Topic175"></a><div class="CTopic TFunction LPapyrus last">
+<a name="UpdateBaseOrgasmVals"></a><a name="Topic67"></a><div class="CTopic TFunction LPapyrus last">
  <div class="CTitle">UpdateBaseOrgasmVals</div>
- <div id="NDPrototype175" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters">Function UpdateBaseOrgasmVals(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName">akActor,</td><td></td><td class="last"></td></tr><tr><td class="PType first"><span class="SHKeyword">int</span>&nbsp;</td><td class="PName">aiDuration,</td><td></td><td class="last"></td></tr><tr><td class="PType first"><span class="SHKeyword">float</span>&nbsp;</td><td class="PName">afOrgasmRate,</td><td></td><td class="last"></td></tr><tr><td class="PType first"><span class="SHKeyword">float</span>&nbsp;</td><td class="PName">afForcing</td><td class="PDefaultValueSeparator">&nbsp;=&nbsp;</td><td class="PDefaultValue last"><span class="SHNumber">0.0</span>,</td></tr><tr><td class="PType first"><span class="SHKeyword">float</span>&nbsp;</td><td class="PName">afArousalRate</td><td class="PDefaultValueSeparator">&nbsp;=&nbsp;</td><td class="PDefaultValue last"><span class="SHNumber">0.0</span></td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
- <div class="CBody"><p>See <a href="../index.html#File:UD_API.psc:UpdateBaseOrgasmVals" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,221);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >UpdateBaseOrgasmVals</a></p></div>
+ <div id="NDPrototype67" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters">Function UpdateBaseOrgasmVals(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName">akActor,</td><td></td><td class="last"></td></tr><tr><td class="PType first"><span class="SHKeyword">int</span>&nbsp;</td><td class="PName">aiDuration,</td><td></td><td class="last"></td></tr><tr><td class="PType first"><span class="SHKeyword">float</span>&nbsp;</td><td class="PName">afOrgasmRate,</td><td></td><td class="last"></td></tr><tr><td class="PType first"><span class="SHKeyword">float</span>&nbsp;</td><td class="PName">afForcing</td><td class="PDefaultValueSeparator">&nbsp;=&nbsp;</td><td class="PDefaultValue last"><span class="SHNumber">0.0</span>,</td></tr><tr><td class="PType first"><span class="SHKeyword">float</span>&nbsp;</td><td class="PName">afArousalRate</td><td class="PDefaultValueSeparator">&nbsp;=&nbsp;</td><td class="PDefaultValue last"><span class="SHNumber">0.0</span></td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
+ <div class="CBody"><p>See <a href="../index.html#File:UD_API.psc:UpdateBaseOrgasmVals" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,252);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >UpdateBaseOrgasmVals</a></p></div>
 </div>
 
 </body></html>
