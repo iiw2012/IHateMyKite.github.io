@@ -8,84 +8,85 @@
 
 <body onload="NDLoader.OnLoad('Content');" class="NDPage NDContentPage">
 
-<a name="UD_GlobalVariables"></a><a name="Topic4"></a><div class="CTopic TFile LPapyrus first">
+<a name="UD_GlobalVariables"></a><a name="Topic194"></a><div class="CTopic TFile LPapyrus first">
  <div class="CTitle">UD_GlobalVariables</div>
- <div id="NDPrototype4" class="NDPrototype"><div class="PSection PPlainSection">Scriptname UD_GlobalVariables <span class="SHKeyword">extends</span> Quest conditional</div></div>
+ <div id="NDPrototype194" class="NDPrototype"><div class="PSection PPlainSection">Scriptname UD_GlobalVariables <span class="SHKeyword">extends</span> Quest conditional</div></div>
  <div class="CBody"><p>Contains properties linked to global variables</p><p>Name of all properties is same as the editorID of linked forms</p><p>To change the Global Variable ingame, all that is need is to type following in console</p><pre class="CCode">Set *EditorID* to *NewValue*</pre><p>So for example, to change mingame update time to 0.1 seconds, following will have to be typed</p><pre class="CCode">Set UDG_CustomMinigameUpT to <span class="SHNumber">0.1</span></pre><p>As papyrus/console/forms is not case sensitive, following will also work</p><pre class="CCode">Set udg_customminigameupt to <span class="SHNumber">0.1</span></pre></div>
 </div>
 
-<a name="Global_Variables"></a><a name="Topic5"></a><div class="CTopic TGroup LPapyrus">
+<a name="Global_Variables"></a><a name="Topic195"></a><div class="CTopic TGroup LPapyrus">
  <div class="CTitle">Global Variables</div>
 </div>
 
-<a name="UDG_ShowCritVars"></a><a name="Topic6"></a><div class="CTopic TVariable LPapyrus">
+<a name="UDG_ShowCritVars"></a><a name="Topic196"></a><div class="CTopic TVariable LPapyrus">
  <div class="CTitle">UDG_ShowCritVars</div>
- <div id="NDPrototype6" class="NDPrototype"><div class="PSection PPlainSection">GlobalVariable Property UDG_ShowCritVars auto</div></div>
+ <div id="NDPrototype196" class="NDPrototype"><div class="PSection PPlainSection">GlobalVariable Property UDG_ShowCritVars auto</div></div>
  <div class="CBody"><p>Shows details about crit in device details if different from 0</p><p>Type = <b>short</b></p></div>
 </div>
 
-<a name="UDG_CustomMinigameUpT"></a><a name="Topic7"></a><div class="CTopic TVariable LPapyrus">
+<a name="UDG_CustomMinigameUpT"></a><a name="Topic197"></a><div class="CTopic TVariable LPapyrus">
  <div class="CTitle">UDG_CustomMinigameUpT</div>
- <div id="NDPrototype7" class="NDPrototype"><div class="PSection PPlainSection">GlobalVariable Property UDG_CustomMinigameUpT auto</div></div>
+ <div id="NDPrototype197" class="NDPrototype"><div class="PSection PPlainSection">GlobalVariable Property UDG_CustomMinigameUpT auto</div></div>
  <div class="CBody"><p>Minigame update time.</p><p>Is used if its different from 0</p><p>Type = float</p></div>
 </div>
 
-<a name="UDG_NPCScanUpT"></a><a name="Topic8"></a><div class="CTopic TVariable LPapyrus">
+<a name="UDG_NPCScanUpT"></a><a name="Topic198"></a><div class="CTopic TVariable LPapyrus">
  <div class="CTitle">UDG_NPCScanUpT</div>
- <div id="NDPrototype8" class="NDPrototype"><div class="PSection PPlainSection">GlobalVariable Property UDG_NPCScanUpT auto</div></div>
+ <div id="NDPrototype198" class="NDPrototype"><div class="PSection PPlainSection">GlobalVariable Property UDG_NPCScanUpT auto</div></div>
  <div class="CBody"><p>Update time for NPC scan</p><p>Type = <b>float</b></p></div>
 </div>
 
-<a name="UDG_NPCHeavyUpT"></a><a name="Topic9"></a><div class="CTopic TVariable LPapyrus">
+<a name="UDG_NPCHeavyUpT"></a><a name="Topic199"></a><div class="CTopic TVariable LPapyrus">
  <div class="CTitle">UDG_NPCHeavyUpT</div>
- <div id="NDPrototype9" class="NDPrototype"><div class="PSection PPlainSection">GlobalVariable Property UDG_NPCHeavyUpT auto</div></div>
+ <div id="NDPrototype199" class="NDPrototype"><div class="PSection PPlainSection">GlobalVariable Property UDG_NPCHeavyUpT auto</div></div>
  <div class="CBody"><p>Update time for NPC heavy processing (skill update)</p><p>Type = <b>float</b></p></div>
 </div>
 
-<a name="UDG_MinigameExhaustion"></a><a name="Topic10"></a><div class="CTopic TVariable LPapyrus">
+<a name="UDG_MinigameExhaustion"></a><a name="Topic200"></a><div class="CTopic TVariable LPapyrus">
  <div class="CTitle">UDG_MinigameExhaustion</div>
- <div id="NDPrototype10" class="NDPrototype"><div class="PSection PPlainSection">GlobalVariable Property UDG_MinigameExhaustion auto</div></div>
+ <div id="NDPrototype200" class="NDPrototype"><div class="PSection PPlainSection">GlobalVariable Property UDG_MinigameExhaustion auto</div></div>
  <div class="CBody"><p>Setting it to value different then 1 will disable exhaustion from being applied</p><p>Type = <b>short</b></p></div>
 </div>
 
-<a name="UDG_ConsoleLog"></a><a name="Topic11"></a><div class="CTopic TVariable LPapyrus">
+<a name="UDG_ConsoleLog"></a><a name="Topic201"></a><div class="CTopic TVariable LPapyrus">
  <div class="CTitle">UDG_ConsoleLog</div>
- <div id="NDPrototype11" class="NDPrototype"><div class="PSection PPlainSection">GlobalVariable Property UDG_ConsoleLog auto</div></div>
+ <div id="NDPrototype201" class="NDPrototype"><div class="PSection PPlainSection">GlobalVariable Property UDG_ConsoleLog auto</div></div>
  <div class="CBody"><p>Allow to toggle console logging (to show messages in cmd if log level is not 0)</p><p>By default turned on, you can turn it off if you still wan't to use trace, but don't wan't it to mess up the console</p><p>Type = <b>short</b></p></div>
 </div>
 
-<a name="UDG_UndressNPC"></a><a name="Topic12"></a><div class="CTopic TVariable LPapyrus">
+<a name="UDG_UndressNPC"></a><a name="Topic202"></a><div class="CTopic TVariable LPapyrus">
  <div class="CTitle">UDG_UndressNPC</div>
- <div id="NDPrototype12" class="NDPrototype"><div class="PSection PPlainSection">GlobalVariable Property UDG_UndressNPC auto</div></div>
+ <div id="NDPrototype202" class="NDPrototype"><div class="PSection PPlainSection">GlobalVariable Property UDG_UndressNPC auto</div></div>
  <div class="CBody"><p>Toggle to 1 to also automatically undress NPC when they wear HB</p><p>They have to be registered for this to work</p><p>Type = <b>short</b></p><p>Default = <b>1</b></p></div>
 </div>
 
-<a name="UDG_UndressFollower"></a><a name="Topic13"></a><div class="CTopic TVariable LPapyrus">
+<a name="UDG_UndressFollower"></a><a name="Topic203"></a><div class="CTopic TVariable LPapyrus">
  <div class="CTitle">UDG_UndressFollower</div>
- <div id="NDPrototype13" class="NDPrototype"><div class="PSection PPlainSection">GlobalVariable Property UDG_UndressFollower auto</div></div>
+ <div id="NDPrototype203" class="NDPrototype"><div class="PSection PPlainSection">GlobalVariable Property UDG_UndressFollower auto</div></div>
  <div class="CBody"><p>Toggle to 1 to automatically also undress follower when they wear HB</p><p>They have to be registered for this to work</p><p>Type = <b>short</b></p><p>Default = <b>0</b></p></div>
 </div>
 
-<a name="UDG_NPCOrgasmUpT"></a><a name="Topic14"></a><div class="CTopic TVariable LPapyrus">
+<a name="UDG_NPCOrgasmUpT"></a><a name="Topic204"></a><div class="CTopic TVariable LPapyrus">
  <div class="CTitle">UDG_NPCOrgasmUpT</div>
- <div id="NDPrototype14" class="NDPrototype"><div class="PSection PPlainSection">GlobalVariable Property UDG_NPCOrgasmUpT auto</div></div>
+ <div id="NDPrototype204" class="NDPrototype"><div class="PSection PPlainSection">GlobalVariable Property UDG_NPCOrgasmUpT auto</div></div>
  <div class="CBody"><p>Update time of orgasm updater</p><p>By default is 1s, but 2s can be also used. Should not be highter then 2s, as it might cause issues</p><p>Type = <b>short</b></p><p>Default = <b>1</b></p></div>
 </div>
 
-<a name="UDG_PO3PEDetection"></a><a name="Topic15"></a><div class="CTopic TVariable LPapyrus">
+<a name="UDG_PO3PEDetection"></a><a name="Topic205"></a><div class="CTopic TVariable LPapyrus">
  <div class="CTitle">UDG_PO3PEDetection</div>
- <div id="NDPrototype15" class="NDPrototype"><div class="PSection PPlainSection">GlobalVariable Property UDG_PO3PEDetection auto</div></div>
+ <div id="NDPrototype205" class="NDPrototype"><div class="PSection PPlainSection">GlobalVariable Property UDG_PO3PEDetection auto</div></div>
  <div class="CBody"><p>Change this to 1 to force disable of detection by PO3PE</p><p>Can help with freeze in case of Lockpick minigame</p><p>Type = <b>short</b></p><p>Default = <b>1</b></p></div>
 </div>
 
-<a name="UDG_MinigameProfiling"></a><a name="Topic16"></a><div class="CTopic TVariable LPapyrus">
+<a name="UDG_MinigameProfiling"></a><a name="Topic206"></a><div class="CTopic TVariable LPapyrus">
  <div class="CTitle">UDG_MinigameProfiling</div>
- <div id="NDPrototype16" class="NDPrototype"><div class="PSection PPlainSection">GlobalVariable Property UDG_MinigameProfiling auto</div></div>
+ <div id="NDPrototype206" class="NDPrototype"><div class="PSection PPlainSection">GlobalVariable Property UDG_MinigameProfiling auto</div></div>
  <div class="CBody"><p>Change this to 1 to enable profiling of device minigame</p><p>bEnableProfiling needs to be set to 1 in skyrim .ini file</p><p>Type = <b>short</b></p><p>Default = <b>0</b></p></div>
 </div>
 
-<a name="UDG_AIMinigameInfo"></a><a name="Topic17"></a><div class="CTopic TVariable LPapyrus last">
+<a name="UDG_AIMinigameInfo"></a><a name="Topic207"></a><div class="CTopic TVariable LPapyrus last">
  <div class="CTitle">UDG_AIMinigameInfo</div>
+ <div id="NDPrototype207" class="NDPrototype"><div class="PSection PPlainSection">GlobalVariable Property UDG_AIMinigameInfo auto</div></div>
  <div class="CBody"><p>Change this to 1 to print NPC Ai information about minigames to console</p><p>Type = <b>short</b></p><p>Default = <b>0</b></p></div>
 </div>
 

@@ -8,100 +8,100 @@
 
 <body onload="NDLoader.OnLoad('Content');" class="NDPage NDContentPage">
 
-<a name="UD_PatchInit"></a><a name="Topic68"></a><div class="CTopic TFile LPapyrus first">
+<a name="UD_PatchInit"></a><a name="Topic124"></a><div class="CTopic TFile LPapyrus first">
  <div class="CTitle">UD_PatchInit</div>
- <div id="NDPrototype68" class="NDPrototype"><div class="PSection PPlainSection">Scriptname UD_PatchInit <span class="SHKeyword">extends</span> Quest</div></div>
+ <div id="NDPrototype124" class="NDPrototype"><div class="PSection PPlainSection">Scriptname UD_PatchInit <span class="SHKeyword">extends</span> Quest</div></div>
  <div class="CBody"><p>Script used for initializing patches. Should be used on all patches to make loading safer. Also provide additional features like adding quest keyword and generic keys.</p><p>Extending this script with new screipt allow user to create new abadon suits.</p></div>
 </div>
 
-<a name="Important_properties"></a><a name="Topic69"></a><div class="CTopic TGroup LPapyrus">
+<a name="Important_properties"></a><a name="Topic125"></a><div class="CTopic TGroup LPapyrus">
  <div class="CTitle">Important properties</div>
 </div>
 
-<a name="UD_PatchSource"></a><a name="Topic70"></a><div class="CTopic TVariable LPapyrus">
+<a name="UD_PatchSource"></a><a name="Topic126"></a><div class="CTopic TVariable LPapyrus">
  <div class="CTitle">UD_PatchSource</div>
- <div id="NDPrototype70" class="NDPrototype"><div class="PSection PPlainSection">String Property UD_PatchSource = <span class="SHString">&quot;error&quot;</span> auto</div></div>
+ <div id="NDPrototype126" class="NDPrototype"><div class="PSection PPlainSection">String Property UD_PatchSource = <span class="SHString">&quot;error&quot;</span> auto</div></div>
  <div class="CBody"><p>Source of patch .esp. Need to have also extension. <b>Allways have to be filled!!</b></p><div class="CHeading">Example</div><p>If this script in on quest in the patch <b>UnforgivingDevices Some Patch.esp</b> then the UD_PatchSource will be <b>UnforgivingDevices Some Patch.esp</b></p></div>
 </div>
 
-<a name="UD_PatchName"></a><a name="Topic71"></a><div class="CTopic TVariable LPapyrus">
+<a name="UD_PatchName"></a><a name="Topic127"></a><div class="CTopic TVariable LPapyrus">
  <div class="CTitle">UD_PatchName</div>
- <div id="NDPrototype71" class="NDPrototype"><div class="PSection PPlainSection">String Property UD_PatchName = <span class="SHString">&quot;UnNamedPatch&quot;</span> auto</div></div>
+ <div id="NDPrototype127" class="NDPrototype"><div class="PSection PPlainSection">String Property UD_PatchName = <span class="SHString">&quot;UnNamedPatch&quot;</span> auto</div></div>
  <div class="CBody"><p>Name of the patch. This is only used in case of error, so user can know what patch have issue</p></div>
 </div>
 
-<a name="QuestKeywords"></a><a name="Topic72"></a><div class="CTopic TVariable LPapyrus">
+<a name="QuestKeywords"></a><a name="Topic128"></a><div class="CTopic TVariable LPapyrus">
  <div class="CTitle">QuestKeywords</div>
- <div id="NDPrototype72" class="NDPrototype"><div class="PSection PPlainSection">Keyword[] Property QuestKeywords auto</div></div>
+ <div id="NDPrototype128" class="NDPrototype"><div class="PSection PPlainSection">Keyword[] Property QuestKeywords auto</div></div>
  <div class="CBody"><p>Array of quest keywords which will be injected to main pool of quest keywords. All quest related ekywords from patched mod should be added there</p></div>
 </div>
 
-<a name="Custom_Abadon_Suit"></a><a name="Topic73"></a><div class="CTopic TGroup LPapyrus">
+<a name="Custom_Abadon_Suit"></a><a name="Topic129"></a><div class="CTopic TGroup LPapyrus">
  <div class="CTitle">Custom Abadon Suit</div>
 </div>
 
-<a name="UD_CustomAbadonSuitEvent_1"></a><a name="Topic74"></a><div class="CTopic TVariable LPapyrus">
+<a name="UD_CustomAbadonSuitEvent_1"></a><a name="Topic130"></a><div class="CTopic TVariable LPapyrus">
  <div class="CTitle">UD_CustomAbadonSuitEvent_1</div>
- <div id="NDPrototype74" class="NDPrototype"><div class="PSection PPlainSection">String Property UD_CustomAbadonSuitEvent_1 auto</div></div>
+ <div id="NDPrototype130" class="NDPrototype"><div class="PSection PPlainSection">String Property UD_CustomAbadonSuitEvent_1 auto</div></div>
  <div class="CBody"><p>Name of event for custom abadon suit. Should be allways made in such so its impossible that other patch uses same named event!!</p><p>Example: UD_Patch_NameOfThePatch_NameOfTheSuit</p></div>
 </div>
 
-<a name="UD_CustomAbadonSuitEvent_1(2)"></a><a name="Topic75"></a><div class="CTopic TVariable LPapyrus">
+<a name="UD_CustomAbadonSuitEvent_1(2)"></a><a name="Topic131"></a><div class="CTopic TVariable LPapyrus">
  <div class="CTitle">UD_CustomAbadonSuitEvent_1</div>
  <div class="CBody"><p>Name of event for custom abadon suit. Should be allways made in such so its impossible that other patch uses same named event!!</p><p>Example: UD_Patch_NameOfThePatch_NameOfTheSuit</p></div>
 </div>
 
-<a name="UD_CustomAbadonSuitEvent_3"></a><a name="Topic76"></a><div class="CTopic TVariable LPapyrus">
+<a name="UD_CustomAbadonSuitEvent_3"></a><a name="Topic132"></a><div class="CTopic TVariable LPapyrus">
  <div class="CTitle">UD_CustomAbadonSuitEvent_3</div>
- <div id="NDPrototype76" class="NDPrototype"><div class="PSection PPlainSection">String Property UD_CustomAbadonSuitEvent_3 auto</div></div>
+ <div id="NDPrototype132" class="NDPrototype"><div class="PSection PPlainSection">String Property UD_CustomAbadonSuitEvent_3 auto</div></div>
  <div class="CBody"><p>Name of event for custom abadon suit. Should be allways made in such so its impossible that other patch uses same named event!!</p><p>Example: UD_Patch_NameOfThePatch_NameOfTheSuit</p></div>
 </div>
 
-<a name="UD_CustomAbadonSuitEvent_4"></a><a name="Topic77"></a><div class="CTopic TVariable LPapyrus">
+<a name="UD_CustomAbadonSuitEvent_4"></a><a name="Topic133"></a><div class="CTopic TVariable LPapyrus">
  <div class="CTitle">UD_CustomAbadonSuitEvent_4</div>
- <div id="NDPrototype77" class="NDPrototype"><div class="PSection PPlainSection">String Property UD_CustomAbadonSuitEvent_4 auto</div></div>
+ <div id="NDPrototype133" class="NDPrototype"><div class="PSection PPlainSection">String Property UD_CustomAbadonSuitEvent_4 auto</div></div>
  <div class="CBody"><p>Name of event for custom abadon suit. Should be allways made in such so its impossible that other patch uses same named event!!</p><p>Example: UD_Patch_NameOfThePatch_NameOfTheSuit</p></div>
 </div>
 
-<a name="UD_CustomAbadonSuitEvent_5"></a><a name="Topic78"></a><div class="CTopic TVariable LPapyrus">
+<a name="UD_CustomAbadonSuitEvent_5"></a><a name="Topic134"></a><div class="CTopic TVariable LPapyrus">
  <div class="CTitle">UD_CustomAbadonSuitEvent_5</div>
- <div id="NDPrototype78" class="NDPrototype"><div class="PSection PPlainSection">String Property UD_CustomAbadonSuitEvent_5 auto</div></div>
+ <div id="NDPrototype134" class="NDPrototype"><div class="PSection PPlainSection">String Property UD_CustomAbadonSuitEvent_5 auto</div></div>
  <div class="CBody"><p>Name of event for custom abadon suit. Should be allways made in such so its impossible that other patch uses same named event!!</p><p>Example: UD_Patch_NameOfThePatch_NameOfTheSuit</p></div>
 </div>
 
-<a name="UD_CustomAbadonSuitName_1"></a><a name="Topic79"></a><div class="CTopic TVariable LPapyrus">
+<a name="UD_CustomAbadonSuitName_1"></a><a name="Topic135"></a><div class="CTopic TVariable LPapyrus">
  <div class="CTitle">UD_CustomAbadonSuitName_1</div>
- <div id="NDPrototype79" class="NDPrototype"><div class="PSection PPlainSection">String Property UD_CustomAbadonSuitName_1 = <span class="SHString">&quot;UnNamedSuit&quot;</span> auto</div></div>
+ <div id="NDPrototype135" class="NDPrototype"><div class="PSection PPlainSection">String Property UD_CustomAbadonSuitName_1 = <span class="SHString">&quot;UnNamedSuit&quot;</span> auto</div></div>
  <div class="CBody"><p>Name of the custom abadon suit, which shows in MCM. UD_CustomAbadonSuitName_X corresponds to the UD_CustomAbadonSuitEvent_X</p></div>
 </div>
 
-<a name="UD_CustomAbadonSuitName_2"></a><a name="Topic80"></a><div class="CTopic TVariable LPapyrus">
+<a name="UD_CustomAbadonSuitName_2"></a><a name="Topic136"></a><div class="CTopic TVariable LPapyrus">
  <div class="CTitle">UD_CustomAbadonSuitName_2</div>
- <div id="NDPrototype80" class="NDPrototype"><div class="PSection PPlainSection">String Property UD_CustomAbadonSuitName_2 = <span class="SHString">&quot;UnNamedSuit&quot;</span> auto</div></div>
+ <div id="NDPrototype136" class="NDPrototype"><div class="PSection PPlainSection">String Property UD_CustomAbadonSuitName_2 = <span class="SHString">&quot;UnNamedSuit&quot;</span> auto</div></div>
  <div class="CBody"><p>Name of the custom abadon suit, which shows in MCM. UD_CustomAbadonSuitName_X corresponds to the UD_CustomAbadonSuitEvent_X</p></div>
 </div>
 
-<a name="UD_CustomAbadonSuitName_3"></a><a name="Topic81"></a><div class="CTopic TVariable LPapyrus">
+<a name="UD_CustomAbadonSuitName_3"></a><a name="Topic137"></a><div class="CTopic TVariable LPapyrus">
  <div class="CTitle">UD_CustomAbadonSuitName_3</div>
- <div id="NDPrototype81" class="NDPrototype"><div class="PSection PPlainSection">String Property UD_CustomAbadonSuitName_3 = <span class="SHString">&quot;UnNamedSuit&quot;</span> auto</div></div>
+ <div id="NDPrototype137" class="NDPrototype"><div class="PSection PPlainSection">String Property UD_CustomAbadonSuitName_3 = <span class="SHString">&quot;UnNamedSuit&quot;</span> auto</div></div>
  <div class="CBody"><p>Name of the custom abadon suit, which shows in MCM. UD_CustomAbadonSuitName_X corresponds to the UD_CustomAbadonSuitEvent_X</p></div>
 </div>
 
-<a name="UD_CustomAbadonSuitName_4"></a><a name="Topic82"></a><div class="CTopic TVariable LPapyrus">
+<a name="UD_CustomAbadonSuitName_4"></a><a name="Topic138"></a><div class="CTopic TVariable LPapyrus">
  <div class="CTitle">UD_CustomAbadonSuitName_4</div>
- <div id="NDPrototype82" class="NDPrototype"><div class="PSection PPlainSection">String Property UD_CustomAbadonSuitName_4 = <span class="SHString">&quot;UnNamedSuit&quot;</span> auto</div></div>
+ <div id="NDPrototype138" class="NDPrototype"><div class="PSection PPlainSection">String Property UD_CustomAbadonSuitName_4 = <span class="SHString">&quot;UnNamedSuit&quot;</span> auto</div></div>
  <div class="CBody"><p>Name of the custom abadon suit, which shows in MCM. UD_CustomAbadonSuitName_X corresponds to the UD_CustomAbadonSuitEvent_X</p></div>
 </div>
 
-<a name="UD_CustomAbadonSuitName_5"></a><a name="Topic83"></a><div class="CTopic TVariable LPapyrus">
+<a name="UD_CustomAbadonSuitName_5"></a><a name="Topic139"></a><div class="CTopic TVariable LPapyrus">
  <div class="CTitle">UD_CustomAbadonSuitName_5</div>
- <div id="NDPrototype83" class="NDPrototype"><div class="PSection PPlainSection">String Property UD_CustomAbadonSuitName_5 = <span class="SHString">&quot;UnNamedSuit&quot;</span> auto</div></div>
+ <div id="NDPrototype139" class="NDPrototype"><div class="PSection PPlainSection">String Property UD_CustomAbadonSuitName_5 = <span class="SHString">&quot;UnNamedSuit&quot;</span> auto</div></div>
  <div class="CBody"><p>Name of the custom abadon suit, which shows in MCM. UD_CustomAbadonSuitName_X corresponds to the UD_CustomAbadonSuitEvent_X</p></div>
 </div>
 
-<a name="EquipSuit"></a><a name="Topic84"></a><div class="CTopic TFunction LPapyrus last">
+<a name="EquipSuit"></a><a name="Topic140"></a><div class="CTopic TFunction LPapyrus last">
  <div class="CTitle">EquipSuit</div>
- <div id="NDPrototype84" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters">Function EquipSuit(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor,</td></tr><tr><td class="PType first">String&nbsp;</td><td class="PName last">asEventName</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
+ <div id="NDPrototype140" class="NDPrototype WideForm"><div class="PSection PParameterSection CStyle"><table><tr><td class="PBeforeParameters">Function EquipSuit(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first">Actor&nbsp;</td><td class="PName last">akActor,</td></tr><tr><td class="PType first">String&nbsp;</td><td class="PName last">asEventName</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div></div>
  <div class="CBody"><p>This function is called if actor is about to be locked in custom abadon suit.</p><p>This function have to be overrided by extended script, and the event have to be filtered.</p><div class="CHeading">Parameters</div><table class="CDefinitionList"><tr><td class="CDLEntry">akActor<div class="CDLParameterType">Actor</div></td><td class="CDLDefinition"><p>Actor that will be locked in abadon suit</p></td></tr><tr><td class="CDLEntry">asEventName<div class="CDLParameterType">String</div></td><td class="CDLDefinition"><p>Name of event, which is equivalent to UD_CustomAbadonSuitEvent_X on one of the patches</p></td></tr></table><div class="CHeading"><u>Example</u></div><pre class="CCode">Scriptname MyCustomPatchScript <span class="SHKeyword">extends</span> UD_PatchInit<br /><br />UD_CustomAbadonSuitEvent_1  -&gt; <span class="SHString">&quot;MyCustomAbadonSuit1&quot;</span><br />UD_CustomAbadonSuitName_1   -&gt; <span class="SHString">&quot;My Custom Abadon Suit 1&quot;</span><br /><br />UD_CustomAbadonSuitEvent_2  -&gt; <span class="SHString">&quot;MyCustomAbadonSuit2&quot;</span><br />UD_CustomAbadonSuitName_2   -&gt; <span class="SHString">&quot;My Custom Abadon Suit 2&quot;</span><br /><br />Function EquipSuit(Actor akActor,String asEventName)<br />    Utility.wait(<span class="SHNumber">0.01</span>) <span class="SHComment">;wait for menu to close</span><br />    UDmain.UDCDmain.DisableActor(akActor)<br />    <span class="SHKeyword">if</span> asEventName == <span class="SHString">&quot;MyCustomAbadonSuit1&quot;</span><br />        <span class="SHComment">;Lock some devices ...</span><br />        libs.LockDevice(akActor,...)<br />    <span class="SHKeyword">elseif</span> asEventName == <span class="SHString">&quot;MyCustomAbadonSuit2&quot;</span><br />        <span class="SHComment">;Lock some other devices ...</span><br />        libs.LockDevice(akActor,...)<br />    endif<br />    UDmain.UDCDmain.EnableActor(akActor)<br />EndFunction</pre></div>
 </div>
 
