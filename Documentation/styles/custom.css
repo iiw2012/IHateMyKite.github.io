@@ -1,0 +1,32 @@
+.CTitle {
+    padding-left:0.5rem;
+    padding-right:0.5rem;
+}
+.CTopic {
+    padding-bottom:0.5rem;
+    max-width:1200px;
+}
+.CTopic p {
+    margin:0 2.25rem 0.5rem 2.25rem;
+    text-indent: 0rem;
+}
+.CHeading {
+    padding-left:0.5rem;
+}
+.TFunction {
+    background-color: #b6afff;
+}
+.TVariable .CCode {
+    background-color: #ffeec8;
+}
+.CDefinitionList {
+    background-color: #c8e4ff;
+}
+table.CDefinitionList {
+    margin: 0 2.25rem 0 2.25rem;
+    padding:0.5rem 0.5rem 0 0.5rem;
+    width: calc(100% - 4.5rem);
+}
+td.CDLEntry {
+    width: 170px;
+}
